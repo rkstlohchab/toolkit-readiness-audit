@@ -1,0 +1,40 @@
+name: Re-run every check
+
+# Re-runs the whole deterministic pipeline on a clean machine: link liveness (HTTP + headless browser), claim
+# grounding, MCP Registry, connector directories, patch replay, scoring, pattern analysis and the page build.
+# Link checks hit live vendor sites, so a few results can differ from run to run.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["agent/**", "data/**", "verification/audit.json", "run_pipeline.sh", ".github/workflows/verify.yml"]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install -q -r requirements.txt
+          .venv/bin/python -m playwright install --with-deps chromium
+      - name: Run the pipeline
+        env:
+          REPO_URL: https://github.com/${{ github.repository }}
+          PAGES_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: ./run_pipeline.sh
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-output
+          path: |
+            verification/*.json
+            docs/

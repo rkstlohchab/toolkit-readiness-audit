@@ -1,0 +1,113 @@
+# Toolkit Readiness Audit (100 apps)
+
+> Agent-researched readiness of 100 SaaS apps to become agent toolkits: login method, self-serve access, API, MCP, verdict and blocker, each with a cited source.
+> Accuracy on held-out apps: first draft 81.7% -> final 91.7%. Audit sample: 83.9% -> 92.2% after automated checks.
+
+## Files
+- https://rkstlohchab.github.io/toolkit-readiness-audit/data.json: one record per app
+- https://rkstlohchab.github.io/toolkit-readiness-audit/data.csv: same, flat
+- https://rkstlohchab.github.io/toolkit-readiness-audit/scores.json: accuracy per pass/field and every miss
+- https://rkstlohchab.github.io/toolkit-readiness-audit/patterns.json: aggregates
+- https://github.com/rkstlohchab/toolkit-readiness-audit: code
+
+## Apps
+- Salesforce (CRM & Sales): build-now | access=free | auth=OAuth2 | api=REST/SOAP/GraphQL | mcp=official | blocker=None
+- HubSpot (CRM & Sales): build-now | access=free | auth=OAuth2/Token | api=REST | mcp=official | blocker=None
+- Pipedrive (CRM & Sales): build-now | access=free | auth=OAuth2/API key | api=REST | mcp=official | blocker=None
+- Attio (CRM & Sales): build-now | access=free | auth=OAuth2/API key | api=REST | mcp=official | blocker=None
+- Twenty (CRM & Sales): build-now | access=free | auth=API key | api=REST/GraphQL | mcp=official | blocker=Self-hosted instances need their own base URL
+- Podio (CRM & Sales): build-now | access=free | auth=OAuth2 | api=REST | mcp=official | blocker=None
+- Zoho CRM (CRM & Sales): build-now | access=free | auth=OAuth2 | api=REST | mcp=official | blocker=Multi-DC domains (.com/.eu/.in)
+- Close (CRM & Sales): build-now | access=trial | auth=API key/OAuth2 | api=REST | mcp=official | blocker=Trial-only test account
+- Copper (CRM & Sales): build-now | access=trial | auth=API key/OAuth2 | api=REST | mcp=none | blocker=Trial-only test account
+- DealCloud (CRM & Sales): needs-outreach | access=gated | auth=OAuth2 | api=REST | mcp=official | blocker=Customer tenant required
+- Zendesk (Support & Helpdesk): build-now | access=trial | auth=OAuth2/API key/Basic | api=REST | mcp=official | blocker=Trial-only test account
+- Intercom (Support & Helpdesk): build-now | access=free | auth=OAuth2/Token | api=REST | mcp=official | blocker=None
+- Freshdesk (Support & Helpdesk): build-now | access=free | auth=API key/Basic | api=REST | mcp=official | blocker=Per-tenant subdomain
+- Front (Support & Helpdesk): build-now | access=free | auth=OAuth2/Token | api=REST | mcp=official | blocker=None
+- Pylon (Support & Helpdesk): needs-outreach | access=gated | auth=API key | api=REST | mcp=official | blocker=Sales-provisioned trial org
+- LiveAgent (Support & Helpdesk): build-now | access=trial | auth=API key | api=REST | mcp=official | blocker=Per-tenant subdomain
+- Plain (Support & Helpdesk): build-now | access=trial | auth=API key | api=GraphQL | mcp=official | blocker=None
+- Help Scout (Support & Helpdesk): build-now | access=trial | auth=OAuth2 | api=REST | mcp=official | blocker=None
+- Gorgias (Support & Helpdesk): build-now | access=trial | auth=API key/Basic/OAuth2 | api=REST | mcp=official | blocker=Trial-only test account
+- Gladly (Support & Helpdesk): needs-outreach | access=gated | auth=Basic | api=REST | mcp=none | blocker=Customer account required
+- Slack (Comms & Messaging): build-with-caveats | access=free | auth=OAuth2/Token | api=REST/WebSocket | mcp=official | blocker=History reads throttled for non-Marketplace apps
+- Twilio (Comms & Messaging): build-now | access=trial | auth=Basic/API key | api=REST | mcp=official | blocker=None
+- Zoho Cliq (Comms & Messaging): build-now | access=free | auth=OAuth2 | api=REST | mcp=official | blocker=Multi-DC domains
+- Lark (Larksuite) (Comms & Messaging): build-now | access=free | auth=OAuth2/Token | api=REST | mcp=official | blocker=None
+- Pumble (Comms & Messaging): build-now | access=free | auth=API key | api=REST | mcp=official | blocker=None
+- Discord (Comms & Messaging): build-now | access=free | auth=Token/OAuth2 | api=REST/WebSocket | mcp=community | blocker=Privileged intents need verification at scale
+- Telegram (Comms & Messaging): build-now | access=free | auth=Token | api=REST | mcp=community | blocker=None
+- WhatsApp Business (Comms & Messaging): build-with-caveats | access=approval | auth=Token/OAuth2 | api=REST | mcp=community | blocker=Meta business verification / Tech Provider
+- Aircall (Comms & Messaging): build-with-caveats | access=trial | auth=Basic/OAuth2 | api=REST | mcp=community | blocker=OAuth needs Technology Partner approval
+- Vonage (Comms & Messaging): build-now | access=trial | auth=API key/Signature | api=REST | mcp=community | blocker=None
+- Google Ads (Marketing, Ads & Social): build-with-caveats | access=approval | auth=OAuth2 | api=gRPC/REST | mcp=official | blocker=Developer token approval
+- Meta Ads (Marketing, Ads & Social): build-with-caveats | access=approval | auth=OAuth2 | api=REST | mcp=official | blocker=Meta app review
+- LinkedIn Ads (Marketing, Ads & Social): needs-outreach | access=approval | auth=OAuth2 | api=REST | mcp=none | blocker=Advertising API access application
+- GoHighLevel (Marketing, Ads & Social): build-now | access=free | auth=OAuth2/Token | api=REST | mcp=official | blocker=None
+- Mailchimp (Marketing, Ads & Social): build-now | access=free | auth=OAuth2/API key | api=REST | mcp=official | blocker=None
+- Klaviyo (Marketing, Ads & Social): build-now | access=free | auth=API key/OAuth2 | api=REST | mcp=official | blocker=None
+- systeme.io (Marketing, Ads & Social): build-now | access=free | auth=API key | api=REST | mcp=official | blocker=None
+- Pinterest (Marketing, Ads & Social): build-with-caveats | access=approval | auth=OAuth2 | api=REST | mcp=official | blocker=Standard access review
+- Threads (Meta) (Marketing, Ads & Social): build-with-caveats | access=approval | auth=OAuth2 | api=REST | mcp=community | blocker=Meta app review
+- SendGrid (Marketing, Ads & Social): build-now | access=trial | auth=API key | api=REST | mcp=community | blocker=None
+- Shopify (Ecommerce): build-now | access=free | auth=OAuth2/Token | api=GraphQL/REST | mcp=official | blocker=Protected customer data review
+- WooCommerce (Ecommerce): build-with-caveats | access=free | auth=API key/Basic/OAuth1 | api=REST | mcp=official | blocker=Per-store host; no central OAuth
+- BigCommerce (Ecommerce): build-now | access=trial | auth=OAuth2/Token | api=REST/GraphQL | mcp=official | blocker=None
+- Salesforce Commerce Cloud (Ecommerce): needs-outreach | access=gated | auth=OAuth2 | api=REST | mcp=none | blocker=Customer/partner realm required
+- Magento (Adobe Commerce) (Ecommerce): build-with-caveats | access=free | auth=OAuth1/Token | api=REST/GraphQL/SOAP | mcp=community | blocker=Per-instance host; OAuth 1.0a
+- Squarespace (Ecommerce): build-with-caveats | access=paid | auth=API key/OAuth2 | api=REST | mcp=official | blocker=Paid plan + OAuth partner application
+- Ecwid (Ecommerce): build-with-caveats | access=paid | auth=OAuth2/Token | api=REST | mcp=none | blocker=Paid plan for custom apps
+- Gumroad (Ecommerce): build-now | access=free | auth=OAuth2 | api=REST | mcp=official | blocker=None
+- Amazon Selling Partner (Ecommerce): needs-outreach | access=approval | auth=OAuth2 | api=REST | mcp=official | blocker=Developer registration approval
+- fanbasis (Ecommerce): needs-outreach | access=gated | auth=API key | api=None | mcp=official | blocker=No public API docs; rebrand to Commas
+- DataForSEO (Data, SEO & Scraping): build-now | access=trial | auth=Basic | api=REST | mcp=official | blocker=Prepaid credits
+- SE Ranking (Data, SEO & Scraping): build-now | access=trial | auth=API key/OAuth2 | api=REST | mcp=official | blocker=Credits after trial
+- Ahrefs (Data, SEO & Scraping): build-with-caveats | access=paid | auth=API key | api=REST | mcp=official | blocker=Paid plan (Lite+)
+- MrScraper (Data, SEO & Scraping): build-now | access=free | auth=Token | api=REST | mcp=official | blocker=None
+- Apify (Data, SEO & Scraping): build-now | access=free | auth=Token/OAuth2 | api=REST | mcp=official | blocker=None
+- Firecrawl (Data, SEO & Scraping): build-now | access=free | auth=API key | api=REST | mcp=official | blocker=None
+- Bright Data (Data, SEO & Scraping): build-now | access=trial | auth=API key | api=REST | mcp=official | blocker=KYC for some proxy products
+- Sherlock (Data, SEO & Scraping): build-with-caveats | access=local | auth=None | api=CLI/library | mcp=community | blocker=No hosted API; needs sandboxed runtime; OSINT/ToS risk
+- Waterfall.io (Data, SEO & Scraping): needs-outreach | access=gated | auth=API key | api=REST | mcp=none | blocker=Sales-gated
+- Clay (Data, SEO & Scraping): build-now | access=free | auth=API key/OAuth2 | api=REST | mcp=official | blocker=Low API quota on free plan
+- GitHub (Dev, Infra & Data): build-now | access=free | auth=OAuth2/Token/Signature | api=REST/GraphQL | mcp=official | blocker=None
+- Vercel (Dev, Infra & Data): build-now | access=free | auth=Token/OAuth2 | api=REST | mcp=official | blocker=None
+- Netlify (Dev, Infra & Data): build-now | access=free | auth=Token/OAuth2 | api=REST | mcp=official | blocker=None
+- Cloudflare (Dev, Infra & Data): build-now | access=free | auth=Token/API key | api=REST/GraphQL | mcp=official | blocker=None
+- Supabase (Dev, Infra & Data): build-now | access=free | auth=Token/OAuth2/API key | api=REST/GraphQL | mcp=official | blocker=None
+- Neo4j (Dev, Infra & Data): build-now | access=free | auth=Basic/OAuth2 | api=REST | mcp=official | blocker=Per-instance host
+- Snowflake (Dev, Infra & Data): build-now | access=trial | auth=Signature/OAuth2/Token | api=REST | mcp=official | blocker=Account-specific host; trial expiry
+- MongoDB Atlas (Dev, Infra & Data): build-now | access=free | auth=OAuth2/API key | api=REST | mcp=official | blocker=None
+- Datadog (Dev, Infra & Data): build-now | access=free | auth=API key/OAuth2 | api=REST | mcp=official | blocker=Multi-site domains
+- Sentry (Dev, Infra & Data): build-now | access=free | auth=Token/OAuth2 | api=REST | mcp=official | blocker=None
+- Notion (Productivity & PM): build-now | access=free | auth=OAuth2/Token | api=REST | mcp=official | blocker=None
+- Airtable (Productivity & PM): build-now | access=free | auth=Token/OAuth2 | api=REST | mcp=official | blocker=None
+- Linear (Productivity & PM): build-now | access=free | auth=OAuth2/API key | api=GraphQL | mcp=official | blocker=None
+- Jira (Productivity & PM): build-now | access=free | auth=OAuth2/Basic/Token | api=REST | mcp=official | blocker=None
+- Asana (Productivity & PM): build-now | access=free | auth=OAuth2/Token | api=REST | mcp=official | blocker=None
+- Monday.com (Productivity & PM): build-now | access=free | auth=OAuth2/Token | api=GraphQL | mcp=official | blocker=None
+- ClickUp (Productivity & PM): build-now | access=free | auth=Token/OAuth2 | api=REST | mcp=official | blocker=None
+- Coda (Productivity & PM): build-now | access=free | auth=Token | api=REST | mcp=official | blocker=None
+- Smartsheet (Productivity & PM): build-now | access=free | auth=OAuth2/Token | api=REST | mcp=official | blocker=None
+- Harvest (Productivity & PM): build-now | access=free | auth=Token/OAuth2 | api=REST | mcp=official | blocker=None
+- Stripe (Finance & Fintech): build-now | access=free | auth=API key/OAuth2 | api=REST | mcp=official | blocker=None
+- Plaid (Finance & Fintech): build-with-caveats | access=approval | auth=API key | api=REST | mcp=official | blocker=Production approval
+- Binance (Finance & Fintech): build-with-caveats | access=free | auth=API key/Signature | api=REST/WebSocket | mcp=official | blocker=Request signing; KYC; region restrictions
+- Paygent Connect (Finance & Fintech): needs-outreach | access=gated | auth=API key | api=REST | mcp=none | blocker=Could not confirm which product / docs not public
+- iPayX (Finance & Fintech): build-with-caveats | access=free | auth=API key | api=MCP-only | mcp=official | blocker=MCP-only surface, no REST docs
+- QuickBooks (Finance & Fintech): build-with-caveats | access=approval | auth=OAuth2 | api=REST | mcp=official | blocker=Production-key approval (App Assessment)
+- Xero (Finance & Fintech): build-with-caveats | access=free | auth=OAuth2 | api=REST | mcp=official | blocker=Tiered API pricing above 5 connections (Mar 2026)
+- Brex (Finance & Fintech): needs-outreach | access=approval | auth=Token/OAuth2 | api=REST | mcp=official | blocker=Business account + partner approval
+- Ramp (Finance & Fintech): build-with-caveats | access=approval | auth=OAuth2 | api=REST | mcp=official | blocker=Business account / sandbox request
+- PitchBook (Finance & Fintech): needs-outreach | access=gated | auth=API key | api=REST | mcp=official | blocker=Subscription + API license
+- NotebookLM (AI, Research & Media): build-with-caveats | access=paid | auth=OAuth2 | api=REST | mcp=official | blocker=Enterprise license; consumer has no API
+- Otter AI (AI, Research & Media): build-with-caveats | access=free | auth=OAuth2/API key | api=REST | mcp=official | blocker=REST API Enterprise-only; MCP is the open path
+- Fathom (AI, Research & Media): build-now | access=free | auth=API key/OAuth2 | api=REST | mcp=official | blocker=None
+- Consensus (AI, Research & Media): build-with-caveats | access=approval | auth=OAuth2/API key | api=REST | mcp=official | blocker=API access application
+- Reducto (AI, Research & Media): build-now | access=free | auth=API key | api=REST | mcp=official | blocker=None
+- Devin (AI, Research & Media): build-with-caveats | access=paid | auth=API key | api=REST | mcp=official | blocker=Paid plan
+- higgsfield (AI, Research & Media): build-with-caveats | access=paid | auth=API key | api=REST/CLI/library | mcp=official | blocker=Paid credits
+- Mermaid CLI (AI, Research & Media): build-now | access=local | auth=None | api=CLI/library | mcp=official | blocker=Needs sandbox with headless Chromium
+- YouTube Transcript (AI, Research & Media): build-now | access=trial | auth=API key | api=REST | mcp=official | blocker=None
+- Grain (AI, Research & Media): build-with-caveats | access=paid | auth=Token/OAuth2 | api=REST | mcp=official | blocker=Paid plan

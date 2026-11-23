@@ -1,0 +1,548 @@
+{
+ "n": 100,
+ "auth_any": {
+  "OAuth2": 66,
+  "Token": 33,
+  "API key": 45,
+  "Basic": 10,
+  "Signature": 4,
+  "OAuth1": 2,
+  "None": 2
+ },
+ "oauth_offered": 66,
+ "key_only": 30,
+ "access": {
+  "free": 54,
+  "trial": 17,
+  "gated": 8,
+  "approval": 12,
+  "paid": 7,
+  "local": 2
+ },
+ "self_serve": 73,
+ "verdict": {
+  "build-now": 64,
+  "needs-outreach": 11,
+  "build-with-caveats": 25
+ },
+ "blockers": {
+  "Customer or partner account": 6,
+  "Sales-gated": 5,
+  "Rate or tier limits": 2,
+  "Vendor review / approval": 10,
+  "Per-instance host / self-hosted": 2,
+  "Paid plan to test": 6,
+  "No public API / unclear product": 3,
+  "Local tool, needs sandbox": 1,
+  "Request signing / KYC": 1
+ },
+ "by_cat": {
+  "CRM & Sales": {
+   "n": 10,
+   "self_serve": 9,
+   "access": {
+    "free": 7,
+    "trial": 2,
+    "gated": 1
+   },
+   "verdict": {
+    "build-now": 9,
+    "needs-outreach": 1
+   },
+   "oauth": 9,
+   "mcp_official": 9
+  },
+  "Support & Helpdesk": {
+   "n": 10,
+   "self_serve": 8,
+   "access": {
+    "trial": 5,
+    "free": 3,
+    "gated": 2
+   },
+   "verdict": {
+    "build-now": 8,
+    "needs-outreach": 2
+   },
+   "oauth": 5,
+   "mcp_official": 9
+  },
+  "Comms & Messaging": {
+   "n": 10,
+   "self_serve": 9,
+   "access": {
+    "free": 6,
+    "trial": 3,
+    "approval": 1
+   },
+   "verdict": {
+    "build-with-caveats": 3,
+    "build-now": 7
+   },
+   "oauth": 6,
+   "mcp_official": 5
+  },
+  "Marketing, Ads & Social": {
+   "n": 10,
+   "self_serve": 5,
+   "access": {
+    "approval": 5,
+    "free": 4,
+    "trial": 1
+   },
+   "verdict": {
+    "build-with-caveats": 4,
+    "needs-outreach": 1,
+    "build-now": 5
+   },
+   "oauth": 8,
+   "mcp_official": 7
+  },
+  "Ecommerce": {
+   "n": 10,
+   "self_serve": 5,
+   "access": {
+    "free": 4,
+    "trial": 1,
+    "gated": 2,
+    "paid": 2,
+    "approval": 1
+   },
+   "verdict": {
+    "build-now": 3,
+    "build-with-caveats": 4,
+    "needs-outreach": 3
+   },
+   "oauth": 7,
+   "mcp_official": 7
+  },
+  "Data, SEO & Scraping": {
+   "n": 10,
+   "self_serve": 8,
+   "access": {
+    "trial": 3,
+    "paid": 1,
+    "free": 4,
+    "local": 1,
+    "gated": 1
+   },
+   "verdict": {
+    "build-now": 7,
+    "build-with-caveats": 2,
+    "needs-outreach": 1
+   },
+   "oauth": 3,
+   "mcp_official": 8
+  },
+  "Dev, Infra & Data": {
+   "n": 10,
+   "self_serve": 10,
+   "access": {
+    "free": 9,
+    "trial": 1
+   },
+   "verdict": {
+    "build-now": 10
+   },
+   "oauth": 9,
+   "mcp_official": 10
+  },
+  "Productivity & PM": {
+   "n": 10,
+   "self_serve": 10,
+   "access": {
+    "free": 10
+   },
+   "verdict": {
+    "build-now": 10
+   },
+   "oauth": 9,
+   "mcp_official": 10
+  },
+  "Finance & Fintech": {
+   "n": 10,
+   "self_serve": 4,
+   "access": {
+    "free": 4,
+    "approval": 4,
+    "gated": 2
+   },
+   "verdict": {
+    "build-now": 1,
+    "build-with-caveats": 6,
+    "needs-outreach": 3
+   },
+   "oauth": 5,
+   "mcp_official": 9
+  },
+  "AI, Research & Media": {
+   "n": 10,
+   "self_serve": 5,
+   "access": {
+    "paid": 4,
+    "free": 3,
+    "approval": 1,
+    "local": 1,
+    "trial": 1
+   },
+   "verdict": {
+    "build-with-caveats": 6,
+    "build-now": 4
+   },
+   "oauth": 5,
+   "mcp_official": 10
+  }
+ },
+ "mcp": {
+  "official_final": 84,
+  "official_draft": 48
+ },
+ "composio": {
+  "on_composio": 80,
+  "apps": [
+   "Ahrefs",
+   "Aircall",
+   "Airtable",
+   "Apify",
+   "Asana",
+   "Attio",
+   "BigCommerce",
+   "Brex",
+   "Bright Data",
+   "Clay",
+   "ClickUp",
+   "Close",
+   "Cloudflare",
+   "Coda",
+   "Consensus",
+   "Copper",
+   "DataForSEO",
+   "Datadog",
+   "Devin",
+   "Discord",
+   "Fathom",
+   "Firecrawl",
+   "Freshdesk",
+   "GitHub",
+   "GoHighLevel",
+   "Google Ads",
+   "Gorgias",
+   "Grain",
+   "Gumroad",
+   "Harvest",
+   "Help Scout",
+   "HubSpot",
+   "Intercom",
+   "Jira",
+   "Klaviyo",
+   "Lark (Larksuite)",
+   "Linear",
+   "LinkedIn Ads",
+   "Mailchimp",
+   "Mermaid CLI",
+   "Meta Ads",
+   "Monday.com",
+   "MongoDB Atlas",
+   "MrScraper",
+   "Neo4j",
+   "Netlify",
+   "NotebookLM",
+   "Notion",
+   "Otter AI",
+   "Pinterest",
+   "Pipedrive",
+   "PitchBook",
+   "Plaid",
+   "Plain",
+   "Podio",
+   "Pumble",
+   "Pylon",
+   "QuickBooks",
+   "Ramp",
+   "Salesforce",
+   "SendGrid",
+   "Sentry",
+   "Shopify",
+   "Slack",
+   "Smartsheet",
+   "Snowflake",
+   "Stripe",
+   "Supabase",
+   "Telegram",
+   "Threads (Meta)",
+   "Twenty",
+   "Twilio",
+   "Vercel",
+   "WhatsApp Business",
+   "Xero",
+   "YouTube Transcript",
+   "Zendesk",
+   "Zoho CRM",
+   "Zoho Cliq",
+   "higgsfield"
+  ]
+ },
+ "easy_wins_not_on_composio": [
+  {
+   "id": 14,
+   "app": "Front",
+   "auth": [
+    "OAuth2",
+    "Token"
+   ],
+   "mcp": "official"
+  },
+  {
+   "id": 16,
+   "app": "LiveAgent",
+   "auth": [
+    "API key"
+   ],
+   "mcp": "official"
+  },
+  {
+   "id": 30,
+   "app": "Vonage",
+   "auth": [
+    "API key",
+    "Signature"
+   ],
+   "mcp": "community"
+  },
+  {
+   "id": 37,
+   "app": "systeme.io",
+   "auth": [
+    "API key"
+   ],
+   "mcp": "official"
+  },
+  {
+   "id": 52,
+   "app": "SE Ranking",
+   "auth": [
+    "API key",
+    "OAuth2"
+   ],
+   "mcp": "official"
+  },
+  {
+   "id": 95,
+   "app": "Reducto",
+   "auth": [
+    "API key"
+   ],
+   "mcp": "official"
+  }
+ ],
+ "outreach": [
+  {
+   "id": 10,
+   "app": "DealCloud",
+   "blocker": "Customer tenant required"
+  },
+  {
+   "id": 15,
+   "app": "Pylon",
+   "blocker": "Sales-provisioned trial org"
+  },
+  {
+   "id": 20,
+   "app": "Gladly",
+   "blocker": "Customer account required"
+  },
+  {
+   "id": 33,
+   "app": "LinkedIn Ads",
+   "blocker": "Advertising API access application"
+  },
+  {
+   "id": 44,
+   "app": "Salesforce Commerce Cloud",
+   "blocker": "Customer/partner realm required"
+  },
+  {
+   "id": 49,
+   "app": "Amazon Selling Partner",
+   "blocker": "Developer registration approval"
+  },
+  {
+   "id": 50,
+   "app": "fanbasis",
+   "blocker": "No public API docs; rebrand to Commas"
+  },
+  {
+   "id": 59,
+   "app": "Waterfall.io",
+   "blocker": "Sales-gated"
+  },
+  {
+   "id": 84,
+   "app": "Paygent Connect",
+   "blocker": "Could not confirm which product / docs not public"
+  },
+  {
+   "id": 88,
+   "app": "Brex",
+   "blocker": "Business account + partner approval"
+  },
+  {
+   "id": 90,
+   "app": "PitchBook",
+   "blocker": "Subscription + API license"
+  }
+ ],
+ "caveats": [
+  {
+   "id": 21,
+   "app": "Slack",
+   "blocker": "History reads throttled for non-Marketplace apps",
+   "cluster": "Rate or tier limits"
+  },
+  {
+   "id": 28,
+   "app": "WhatsApp Business",
+   "blocker": "Meta business verification / Tech Provider",
+   "cluster": "Vendor review / approval"
+  },
+  {
+   "id": 29,
+   "app": "Aircall",
+   "blocker": "OAuth needs Technology Partner approval",
+   "cluster": "Customer or partner account"
+  },
+  {
+   "id": 31,
+   "app": "Google Ads",
+   "blocker": "Developer token approval",
+   "cluster": "Vendor review / approval"
+  },
+  {
+   "id": 32,
+   "app": "Meta Ads",
+   "blocker": "Meta app review",
+   "cluster": "Vendor review / approval"
+  },
+  {
+   "id": 38,
+   "app": "Pinterest",
+   "blocker": "Standard access review",
+   "cluster": "Vendor review / approval"
+  },
+  {
+   "id": 39,
+   "app": "Threads (Meta)",
+   "blocker": "Meta app review",
+   "cluster": "Vendor review / approval"
+  },
+  {
+   "id": 42,
+   "app": "WooCommerce",
+   "blocker": "Per-store host; no central OAuth",
+   "cluster": "Per-instance host / self-hosted"
+  },
+  {
+   "id": 45,
+   "app": "Magento (Adobe Commerce)",
+   "blocker": "Per-instance host; OAuth 1.0a",
+   "cluster": "Per-instance host / self-hosted"
+  },
+  {
+   "id": 46,
+   "app": "Squarespace",
+   "blocker": "Paid plan + OAuth partner application",
+   "cluster": "Paid plan to test"
+  },
+  {
+   "id": 47,
+   "app": "Ecwid",
+   "blocker": "Paid plan for custom apps",
+   "cluster": "Paid plan to test"
+  },
+  {
+   "id": 53,
+   "app": "Ahrefs",
+   "blocker": "Paid plan (Lite+)",
+   "cluster": "Paid plan to test"
+  },
+  {
+   "id": 58,
+   "app": "Sherlock",
+   "blocker": "No hosted API; needs sandboxed runtime; OSINT/ToS risk",
+   "cluster": "Local tool, needs sandbox"
+  },
+  {
+   "id": 82,
+   "app": "Plaid",
+   "blocker": "Production approval",
+   "cluster": "Vendor review / approval"
+  },
+  {
+   "id": 83,
+   "app": "Binance",
+   "blocker": "Request signing; KYC; region restrictions",
+   "cluster": "Request signing / KYC"
+  },
+  {
+   "id": 85,
+   "app": "iPayX",
+   "blocker": "MCP-only surface, no REST docs",
+   "cluster": "No public API / unclear product"
+  },
+  {
+   "id": 86,
+   "app": "QuickBooks",
+   "blocker": "Production-key approval (App Assessment)",
+   "cluster": "Vendor review / approval"
+  },
+  {
+   "id": 87,
+   "app": "Xero",
+   "blocker": "Tiered API pricing above 5 connections (Mar 2026)",
+   "cluster": "Rate or tier limits"
+  },
+  {
+   "id": 89,
+   "app": "Ramp",
+   "blocker": "Business account / sandbox request",
+   "cluster": "Customer or partner account"
+  },
+  {
+   "id": 91,
+   "app": "NotebookLM",
+   "blocker": "Enterprise license; consumer has no API",
+   "cluster": "Sales-gated"
+  },
+  {
+   "id": 92,
+   "app": "Otter AI",
+   "blocker": "REST API Enterprise-only; MCP is the open path",
+   "cluster": "Sales-gated"
+  },
+  {
+   "id": 94,
+   "app": "Consensus",
+   "blocker": "API access application",
+   "cluster": "Vendor review / approval"
+  },
+  {
+   "id": 96,
+   "app": "Devin",
+   "blocker": "Paid plan",
+   "cluster": "Paid plan to test"
+  },
+  {
+   "id": 97,
+   "app": "higgsfield",
+   "blocker": "Paid credits",
+   "cluster": "Paid plan to test"
+  },
+  {
+   "id": 100,
+   "app": "Grain",
+   "blocker": "Paid plan",
+   "cluster": "Paid plan to test"
+  }
+ ],
+ "build_now_on_composio": 58
+}

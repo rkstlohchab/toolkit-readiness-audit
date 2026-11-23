@@ -1,0 +1,594 @@
+{
+ "n_apps": 30,
+ "n_judgments": 180,
+ "passes": {
+  "pass1": {
+   "per_field": {
+    "auth": 0.9666666666666667,
+    "access": 0.8666666666666667,
+    "api": 1.0,
+    "mcp": 0.7,
+    "verdict": 0.9,
+    "evidence": 0.6
+   },
+   "correct": 151,
+   "accuracy": 0.8388888888888889
+  },
+  "pass2": {
+   "per_field": {
+    "auth": 1.0,
+    "access": 0.9,
+    "api": 1.0,
+    "mcp": 0.8333333333333334,
+    "verdict": 0.9333333333333333,
+    "evidence": 0.8666666666666667
+   },
+   "correct": 166,
+   "accuracy": 0.9222222222222223
+  },
+  "final": {
+   "per_field": {
+    "auth": 1.0,
+    "access": 1.0,
+    "api": 1.0,
+    "mcp": 1.0,
+    "verdict": 1.0,
+    "evidence": 1.0
+   },
+   "correct": 180,
+   "accuracy": 1.0
+  }
+ },
+ "misses": {
+  "pass1": [
+   {
+    "id": 3,
+    "app": "Pipedrive",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 9,
+    "app": "Copper",
+    "field": "verdict",
+    "got": "build-with-caveats",
+    "truth": "build-now"
+   },
+   {
+    "id": 14,
+    "app": "Front",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 14,
+    "app": "Front",
+    "field": "evidence",
+    "got": "access URL 404",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "access",
+    "got": "free",
+    "truth": "trial"
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "evidence",
+    "got": "pricing page does not support 'free API'",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 29,
+    "app": "Aircall",
+    "field": "access",
+    "got": "paid",
+    "truth": "trial"
+   },
+   {
+    "id": 29,
+    "app": "Aircall",
+    "field": "evidence",
+    "got": "access URL is the partner OAuth tutorial; does not support 'paid'",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 30,
+    "app": "Vonage",
+    "field": "evidence",
+    "got": "access page never mentions free credit",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 31,
+    "app": "Google Ads",
+    "field": "evidence",
+    "got": "API page lacks gRPC",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 35,
+    "app": "Mailchimp",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 45,
+    "app": "Magento (Adobe Commerce)",
+    "field": "evidence",
+    "got": "API page lacks SOAP",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 52,
+    "app": "SE Ranking",
+    "field": "access",
+    "got": "paid",
+    "truth": "trial"
+   },
+   {
+    "id": 52,
+    "app": "SE Ranking",
+    "field": "verdict",
+    "got": "build-with-caveats",
+    "truth": "build-now"
+   },
+   {
+    "id": 52,
+    "app": "SE Ranking",
+    "field": "evidence",
+    "got": "official MCP claimed with no citation",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 53,
+    "app": "Ahrefs",
+    "field": "evidence",
+    "got": "access URL redirects to docs home; MCP uncited",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 65,
+    "app": "Supabase",
+    "field": "evidence",
+    "got": "API page lacks GraphQL",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 78,
+    "app": "Coda",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "access",
+    "got": "free",
+    "truth": "approval"
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "verdict",
+    "got": "build-now",
+    "truth": "build-with-caveats"
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "evidence",
+    "got": "cited go-live page contradicts 'free' (approval gate)",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 88,
+    "app": "Brex",
+    "field": "mcp",
+    "got": "none",
+    "truth": true
+   },
+   {
+    "id": 88,
+    "app": "Brex",
+    "field": "evidence",
+    "got": "access + API URLs 404",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "evidence",
+    "got": "auth/access/API URLs 404; MCP uncited",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 93,
+    "app": "Fathom",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 98,
+    "app": "Mermaid CLI",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 100,
+    "app": "Grain",
+    "field": "auth",
+    "got": [
+     "Token"
+    ],
+    "truth": [
+     "Token",
+     "OAuth2"
+    ]
+   },
+   {
+    "id": 100,
+    "app": "Grain",
+    "field": "mcp",
+    "got": "none",
+    "truth": true
+   }
+  ],
+  "pass2": [
+   {
+    "id": 3,
+    "app": "Pipedrive",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 9,
+    "app": "Copper",
+    "field": "verdict",
+    "got": "build-with-caveats",
+    "truth": "build-now"
+   },
+   {
+    "id": 14,
+    "app": "Front",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "access",
+    "got": "free",
+    "truth": "trial"
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "evidence",
+    "got": "pricing page does not support 'free API'",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 29,
+    "app": "Aircall",
+    "field": "access",
+    "got": "paid",
+    "truth": "trial"
+   },
+   {
+    "id": 29,
+    "app": "Aircall",
+    "field": "evidence",
+    "got": "access URL does not support 'paid'",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 30,
+    "app": "Vonage",
+    "field": "evidence",
+    "got": "access page never mentions free credit",
+    "truth": "live + supporting citations"
+   },
+   {
+    "id": 35,
+    "app": "Mailchimp",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 78,
+    "app": "Coda",
+    "field": "mcp",
+    "got": "community",
+    "truth": true
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "access",
+    "got": "free",
+    "truth": "approval"
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "verdict",
+    "got": "build-now",
+    "truth": "build-with-caveats"
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "evidence",
+    "got": "cited go-live page contradicts 'free'",
+    "truth": "live + supporting citations"
+   }
+  ],
+  "final": []
+ },
+ "loops": {
+  "pass1_errors": 29,
+  "errors_flagged": 16,
+  "errors_fixed_by_loops": 15,
+  "recall": 0.5517241379310345,
+  "flagged_rows": 17,
+  "flagged_rows_with_error": 15,
+  "precision": 0.8823529411764706,
+  "missed_by_loops": [
+   {
+    "id": 3,
+    "app": "Pipedrive",
+    "field": "mcp"
+   },
+   {
+    "id": 9,
+    "app": "Copper",
+    "field": "verdict"
+   },
+   {
+    "id": 14,
+    "app": "Front",
+    "field": "mcp"
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "access"
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "mcp"
+   },
+   {
+    "id": 18,
+    "app": "Help Scout",
+    "field": "evidence"
+   },
+   {
+    "id": 29,
+    "app": "Aircall",
+    "field": "access"
+   },
+   {
+    "id": 29,
+    "app": "Aircall",
+    "field": "evidence"
+   },
+   {
+    "id": 35,
+    "app": "Mailchimp",
+    "field": "mcp"
+   },
+   {
+    "id": 78,
+    "app": "Coda",
+    "field": "mcp"
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "access"
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "verdict"
+   },
+   {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "evidence"
+   }
+  ],
+  "regressions_pass1_to_pass2": []
+ },
+ "holdout": {
+  "pass1": {
+   "accuracy": 0.8166666666666667,
+   "correct": 49,
+   "n": 60,
+   "per_field": {
+    "auth": 1.0,
+    "access": 0.9,
+    "api": 0.9,
+    "mcp": 0.8,
+    "verdict": 1.0,
+    "evidence": 0.3
+   },
+   "misses": [
+    {
+     "id": 6,
+     "app": "Podio",
+     "field": "mcp"
+    },
+    {
+     "id": 6,
+     "app": "Podio",
+     "field": "evidence"
+    },
+    {
+     "id": 20,
+     "app": "Gladly",
+     "field": "evidence"
+    },
+    {
+     "id": 24,
+     "app": "Lark (Larksuite)",
+     "field": "evidence"
+    },
+    {
+     "id": 34,
+     "app": "GoHighLevel",
+     "field": "access"
+    },
+    {
+     "id": 34,
+     "app": "GoHighLevel",
+     "field": "evidence"
+    },
+    {
+     "id": 46,
+     "app": "Squarespace",
+     "field": "mcp"
+    },
+    {
+     "id": 46,
+     "app": "Squarespace",
+     "field": "evidence"
+    },
+    {
+     "id": 77,
+     "app": "ClickUp",
+     "field": "evidence"
+    },
+    {
+     "id": 92,
+     "app": "Otter AI",
+     "field": "api"
+    },
+    {
+     "id": 92,
+     "app": "Otter AI",
+     "field": "evidence"
+    }
+   ]
+  },
+  "pass2": {
+   "accuracy": 0.8833333333333333,
+   "correct": 53,
+   "n": 60,
+   "per_field": {
+    "auth": 1.0,
+    "access": 0.9,
+    "api": 1.0,
+    "mcp": 0.8,
+    "verdict": 1.0,
+    "evidence": 0.6
+   },
+   "misses": [
+    {
+     "id": 6,
+     "app": "Podio",
+     "field": "mcp"
+    },
+    {
+     "id": 20,
+     "app": "Gladly",
+     "field": "evidence"
+    },
+    {
+     "id": 24,
+     "app": "Lark (Larksuite)",
+     "field": "evidence"
+    },
+    {
+     "id": 34,
+     "app": "GoHighLevel",
+     "field": "access"
+    },
+    {
+     "id": 34,
+     "app": "GoHighLevel",
+     "field": "evidence"
+    },
+    {
+     "id": 46,
+     "app": "Squarespace",
+     "field": "mcp"
+    },
+    {
+     "id": 46,
+     "app": "Squarespace",
+     "field": "evidence"
+    }
+   ]
+  },
+  "final": {
+   "accuracy": 0.9166666666666666,
+   "correct": 55,
+   "n": 60,
+   "per_field": {
+    "auth": 1.0,
+    "access": 0.9,
+    "api": 1.0,
+    "mcp": 1.0,
+    "verdict": 1.0,
+    "evidence": 0.6
+   },
+   "misses": [
+    {
+     "id": 20,
+     "app": "Gladly",
+     "field": "evidence"
+    },
+    {
+     "id": 24,
+     "app": "Lark (Larksuite)",
+     "field": "evidence"
+    },
+    {
+     "id": 34,
+     "app": "GoHighLevel",
+     "field": "access"
+    },
+    {
+     "id": 34,
+     "app": "GoHighLevel",
+     "field": "evidence"
+    },
+    {
+     "id": 46,
+     "app": "Squarespace",
+     "field": "evidence"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,366 @@
+[
+ {
+  "id": 3,
+  "app": "Pipedrive",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://openai.com/business/plugins/pipedrive/"
+  ],
+  "quote": "Pipedrive: Work with your Pipedrive CRM ... Manage deals and leads"
+ },
+ {
+  "id": 5,
+  "app": "Twenty",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://docs.twenty.com/user-guide/ai/capabilities/mcp.md"
+  ],
+  "quote": "AI assistants can read and write your CRM data through natural language"
+ },
+ {
+  "id": 6,
+  "app": "Podio",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://www.progress.com/podio/documentation/using-podio/podio-mcp-server"
+  ],
+  "quote": "It gives your AI assistant 22 tools covering both reading and writing your Podio data"
+ },
+ {
+  "id": 11,
+  "app": "Zendesk",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://openai.com/business/plugins/zendesk/"
+  ],
+  "quote": "Zendesk (Beta) plugin for ChatGPT"
+ },
+ {
+  "id": 13,
+  "app": "Freshdesk",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://partnersupport.freshworks.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk"
+  ],
+  "quote": "starting September 10, 2026, the Freshworks MCP integration is generally available"
+ },
+ {
+  "id": 14,
+  "app": "Front",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://dev.frontapp.com/docs/mcp-server"
+  ],
+  "quote": "The Front MCP server is here (beta)"
+ },
+ {
+  "id": 18,
+  "app": "Help Scout",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports"
+  ],
+  "quote": "Help Scout MCP gives AI assistants secure, official access to Help Scout data."
+ },
+ {
+  "id": 25,
+  "app": "Pumble",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/"
+  ],
+  "quote": "you can now connect your AI agent to Pumble ... via the MCP server"
+ },
+ {
+  "id": 32,
+  "app": "Meta Ads",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview"
+  ],
+  "quote": "Ads MCP Server"
+ },
+ {
+  "id": 35,
+  "app": "Mailchimp",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://claude.com/connectors/intuit-mailchimp"
+  ],
+  "quote": "Intuit Mailchimp connector | Claude by Anthropic"
+ },
+ {
+  "id": 37,
+  "app": "systeme.io",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp"
+  ],
+  "quote": "The server is included in all systeme.io plans"
+ },
+ {
+  "id": 43,
+  "app": "BigCommerce",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://docs.bigcommerce.com/developer/api-reference/mcp/overview"
+  ],
+  "quote": "The BigCommerce MCP server is currently in beta"
+ },
+ {
+  "id": 46,
+  "app": "Squarespace",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://claude.com/connectors/squarespace"
+  ],
+  "quote": "Made by Squarespace ... https://mcp.squarespace.com/mcp"
+ },
+ {
+  "id": 48,
+  "app": "Gumroad",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://gumroad.com/mcp"
+  ],
+  "quote": "Sell digital products with AI"
+ },
+ {
+  "id": 49,
+  "app": "Amazon Selling Partner",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://claude.com/connectors/amazon-selling-partner"
+  ],
+  "quote": "Made by Amazon ... currently in beta"
+ },
+ {
+  "id": 78,
+  "app": "Coda",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://openai.com/business/plugins/coda/"
+  ],
+  "quote": "Developer: Superhuman Platform Inc."
+ },
+ {
+  "id": 80,
+  "app": "Harvest",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP"
+  ],
+  "quote": "Harvest MCP"
+ },
+ {
+  "id": 83,
+  "app": "Binance",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://openai.com/business/plugins/binance/"
+  ],
+  "quote": "This app does not access user accounts and does not support trading"
+ },
+ {
+  "id": 91,
+  "app": "NotebookLM",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L5",
+  "why": "learned rule from audit: non-official MCP claims were the least reliable field -> every one re-checked (connector directories + vendor docs search)",
+  "src": [
+   "https://developers.google.com/notebook/docs/mcp"
+  ],
+  "quote": "The Gemini Notebook API provides a remote Model Context Protocol (MCP) server"
+ },
+ {
+  "id": 44,
+  "app": "Salesforce Commerce Cloud",
+  "field": "mcp",
+  "from": "official",
+  "to": "none",
+  "loop": "rubric",
+  "why": "rubric consistency: dev-tooling MCPs do not count (same rule as Adobe Commerce App Builder MCP); reverses a Pass-2 change",
+  "src": [
+   "https://github.com/SalesforceCommerceCloud/b2c-developer-tooling"
+  ],
+  "quote": ""
+ },
+ {
+  "id": 18,
+  "app": "Help Scout",
+  "field": "access",
+  "from": "free",
+  "to": "trial",
+  "loop": "audit",
+  "why": "blind audit: pricing table lists API access only on paid tiers",
+  "src": [
+   "https://www.helpscout.com/pricing/"
+  ],
+  "quote": "API access ... appear in the Standard, Plus, and Pro columns; the Free plan doesn't list API access"
+ },
+ {
+  "id": 9,
+  "app": "Copper",
+  "field": "verdict",
+  "from": "build-with-caveats",
+  "to": "build-now",
+  "loop": "audit",
+  "why": "blind audit: trial is self-serve, so the verdict definitions give build-now",
+  "src": [
+   "https://developer.copper.com/introduction/authentication.html"
+  ],
+  "quote": ""
+ },
+ {
+  "id": 29,
+  "app": "Aircall",
+  "field": "access",
+  "from": "paid",
+  "to": "trial",
+  "loop": "audit",
+  "why": "blind audit: Aircall's developer guide describes a trial developer account (medium confidence)",
+  "src": [
+   "https://aircall.io/blog/tech/ai-ecosystem-developer-guide/"
+  ],
+  "quote": "a developer account, valid as a trial for four months"
+ },
+ {
+  "id": 86,
+  "app": "QuickBooks",
+  "field": "access",
+  "from": "free",
+  "to": "approval",
+  "loop": "audit",
+  "why": "blind audit: production credentials gated by an approval step",
+  "src": [
+   "https://developer.intuit.com/app/developer/qbo/docs/go-live/publish-app"
+  ],
+  "quote": "The Show Credentials switch appears only after the App Assessment Questionnaire is approved."
+ },
+ {
+  "id": 86,
+  "app": "QuickBooks",
+  "field": "verdict",
+  "from": "build-now",
+  "to": "build-with-caveats",
+  "loop": "audit",
+  "why": "blind audit: production credentials gated by an approval step",
+  "src": [
+   "https://developer.intuit.com/app/developer/qbo/docs/go-live/publish-app"
+  ],
+  "quote": "The Show Credentials switch appears only after the App Assessment Questionnaire is approved."
+ },
+ {
+  "id": 34,
+  "app": "GoHighLevel",
+  "field": "access",
+  "from": "trial",
+  "to": "free",
+  "loop": "holdout",
+  "why": "held-out check found free developer sandboxes (measured score kept as-is)",
+  "src": [
+   "https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount"
+  ],
+  "quote": "Sandbox accounts are made in the Marketplace Developer Portal ... active for up to 6 months"
+ },
+ {
+  "id": 21,
+  "app": "Slack",
+  "field": "verdict",
+  "from": "build-now",
+  "to": "build-with-caveats",
+  "loop": "rubric-late",
+  "why": "rubric consistency: a rate-limit policy is a caveat under the verdict definitions; confirmed the 2025 policy",
+  "src": [
+   "https://docs.slack.dev/changelog/2025/05/29/rate-limit-changes-for-non-marketplace-apps"
+  ],
+  "quote": "these methods will have a new rate limit of 15 messages per request at one request per minute"
+ },
+ {
+  "id": 5,
+  "app": "Twenty",
+  "field": "verdict",
+  "from": "build-with-caveats",
+  "to": "build-now",
+  "loop": "rubric-late",
+  "why": "rubric consistency: Twenty Cloud is a central API like Freshdesk/Zendesk subdomains; self-hosting is an extra, not a blocker",
+  "src": [
+   "https://twenty.com/developers/section/api-and-webhooks/api"
+  ],
+  "quote": ""
+ }
+]

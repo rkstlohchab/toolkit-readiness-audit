@@ -1,0 +1,566 @@
+[
+ {
+  "id": 15,
+  "app": "Pylon",
+  "field": "access",
+  "from": "paid",
+  "to": "gated",
+  "loop": "L3",
+  "why": "low-confidence row re-researched; pricing page shows sales-led trials and an official MCP server",
+  "src": [
+   "https://www.usepylon.com/pricing"
+  ],
+  "quote": "Pylon offers free trials for prospects ... Pylon MCP server"
+ },
+ {
+  "id": 15,
+  "app": "Pylon",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L3",
+  "why": "low-confidence row re-researched; pricing page shows sales-led trials and an official MCP server",
+  "src": [
+   "https://www.usepylon.com/pricing"
+  ],
+  "quote": "Pylon offers free trials for prospects ... Pylon MCP server"
+ },
+ {
+  "id": 15,
+  "app": "Pylon",
+  "field": "verdict",
+  "from": "build-with-caveats",
+  "to": "needs-outreach",
+  "loop": "L3",
+  "why": "low-confidence row re-researched; pricing page shows sales-led trials and an official MCP server",
+  "src": [
+   "https://www.usepylon.com/pricing"
+  ],
+  "quote": "Pylon offers free trials for prospects ... Pylon MCP server"
+ },
+ {
+  "id": 16,
+  "app": "LiveAgent",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L3",
+  "why": "absence-of-MCP claim checked against vendor GitHub org",
+  "src": [
+   "https://github.com/QualityUnit/liveagent-mcp-server"
+  ],
+  "quote": "LiveAgent MCP Server to automate tasks in your helpdesk"
+ },
+ {
+  "id": 17,
+  "app": "Plain",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L2b",
+  "why": "MCP Registry lists a plain.com-verified server",
+  "src": [
+   "https://registry.modelcontextprotocol.io/v0/servers?search=plain"
+  ],
+  "quote": "com.plain/mcp"
+ },
+ {
+  "id": 19,
+  "app": "Gorgias",
+  "field": "auth",
+  "from": [
+   "Basic",
+   "OAuth2"
+  ],
+  "to": [
+   "API key",
+   "Basic",
+   "OAuth2"
+  ],
+  "loop": "L2",
+  "why": "auth page lists API key for private apps and OAuth2 for public apps; vendor org publishes MCP recipes",
+  "src": [
+   "https://developers.gorgias.com/reference/authentication",
+   "https://github.com/gorgias/mcp-cookbook"
+  ],
+  "quote": "The Gorgias API supports two authentication methods: Private app → API key; Public app → OAuth2"
+ },
+ {
+  "id": 19,
+  "app": "Gorgias",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L2",
+  "why": "auth page lists API key for private apps and OAuth2 for public apps; vendor org publishes MCP recipes",
+  "src": [
+   "https://developers.gorgias.com/reference/authentication",
+   "https://github.com/gorgias/mcp-cookbook"
+  ],
+  "quote": "The Gorgias API supports two authentication methods: Private app → API key; Public app → OAuth2"
+ },
+ {
+  "id": 29,
+  "app": "Aircall",
+  "field": "mcp",
+  "from": "none",
+  "to": "community",
+  "loop": "L3",
+  "why": "absence-of-MCP claim checked by search",
+  "src": [
+   "https://developer.aircall.io/docs/mcp-faqs"
+  ],
+  "quote": "As of this writing we don't offer an MCP server but stay tuned"
+ },
+ {
+  "id": 38,
+  "app": "Pinterest",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L3",
+  "why": "absence-of-MCP claim checked by search",
+  "src": [
+   "https://community.pinterest.biz/t/introducing-the-pinterest-mcp-server/51358"
+  ],
+  "quote": "Introducing the Pinterest MCP Server"
+ },
+ {
+  "id": 44,
+  "app": "Salesforce Commerce Cloud",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L3",
+  "why": "vendor GitHub org search",
+  "src": [
+   "https://github.com/SalesforceCommerceCloud/b2c-developer-tooling"
+  ],
+  "quote": "B2C CLI, VSCode Extension, Skills+MCP, and Tooling SDK"
+ },
+ {
+  "id": 50,
+  "app": "fanbasis",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L1",
+  "why": "every citation redirected to commas.com; rendered both pages in headless Chrome",
+  "src": [
+   "https://commas.com/"
+  ],
+  "quote": "FanBasis is now Commas! ... Enterprise & APIs: Embedded checkouts, multi-rail payouts, APIs and SDKs ... MCP beta"
+ },
+ {
+  "id": 54,
+  "app": "MrScraper",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L2b",
+  "why": "MCP Registry lists a vendor-org server",
+  "src": [
+   "https://registry.modelcontextprotocol.io/v0/servers?search=mrscraper"
+  ],
+  "quote": "io.github.mrscraper-com/mrscraper-mcp"
+ },
+ {
+  "id": 59,
+  "app": "Waterfall.io",
+  "field": "breadth",
+  "from": "narrow",
+  "to": "moderate",
+  "loop": "L1",
+  "why": "homepage citations replaced with docs + pricing",
+  "src": [
+   "https://docs.waterfall.io/",
+   "https://www.waterfall.io/pricing"
+  ],
+  "quote": "Commitments and minimums are set at contract and depend on volume and term."
+ },
+ {
+  "id": 85,
+  "app": "iPayX",
+  "field": "access",
+  "from": "gated",
+  "to": "free",
+  "loop": "L2b",
+  "why": "registry listed a vendor-owned MCP; the product is not a payments API at all",
+  "src": [
+   "https://github.com/iPAYX-Technologies/mcp-fx-audit"
+  ],
+  "quote": "Read-only: the server never moves money and never executes transfers."
+ },
+ {
+  "id": 85,
+  "app": "iPayX",
+  "field": "api",
+  "from": [
+   "REST"
+  ],
+  "to": [
+   "MCP-only"
+  ],
+  "loop": "L2b",
+  "why": "registry listed a vendor-owned MCP; the product is not a payments API at all",
+  "src": [
+   "https://github.com/iPAYX-Technologies/mcp-fx-audit"
+  ],
+  "quote": "Read-only: the server never moves money and never executes transfers."
+ },
+ {
+  "id": 85,
+  "app": "iPayX",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L2b",
+  "why": "registry listed a vendor-owned MCP; the product is not a payments API at all",
+  "src": [
+   "https://github.com/iPAYX-Technologies/mcp-fx-audit"
+  ],
+  "quote": "Read-only: the server never moves money and never executes transfers."
+ },
+ {
+  "id": 85,
+  "app": "iPayX",
+  "field": "verdict",
+  "from": "needs-outreach",
+  "to": "build-with-caveats",
+  "loop": "L2b",
+  "why": "registry listed a vendor-owned MCP; the product is not a payments API at all",
+  "src": [
+   "https://github.com/iPAYX-Technologies/mcp-fx-audit"
+  ],
+  "quote": "Read-only: the server never moves money and never executes transfers."
+ },
+ {
+  "id": 88,
+  "app": "Brex",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L3",
+  "why": "absence-of-MCP claim checked by search",
+  "src": [
+   "https://developer.brex.com/docs/mcp"
+  ],
+  "quote": "Brex MCP ... https://api.brex.com/mcp"
+ },
+ {
+  "id": 95,
+  "app": "Reducto",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L3",
+  "why": "absence-of-MCP claim checked by search",
+  "src": [
+   "https://docs.reducto.ai/mcp-server"
+  ],
+  "quote": "hosted server (https://mcp.reducto.ai/mcp): bearer token in the Authorization header; keys created at studio.reducto.ai/api-keys"
+ },
+ {
+  "id": 100,
+  "app": "Grain",
+  "field": "auth",
+  "from": [
+   "Token"
+  ],
+  "to": [
+   "Token",
+   "OAuth2"
+  ],
+  "loop": "L3",
+  "why": "absence-of-MCP claim + homepage citations re-researched",
+  "src": [
+   "https://support.grain.com/en/articles/14811968-grain-mcp",
+   "https://grain.com/release-note/grain-mcp-and-api-updates"
+  ],
+  "quote": "official hosted MCP at https://api.grain.com/_/mcp with OAuth; API accepts PATs, Workspace Access Tokens, OAuth 2.0 + PKCE; free plans get no API access"
+ },
+ {
+  "id": 100,
+  "app": "Grain",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L3",
+  "why": "absence-of-MCP claim + homepage citations re-researched",
+  "src": [
+   "https://support.grain.com/en/articles/14811968-grain-mcp",
+   "https://grain.com/release-note/grain-mcp-and-api-updates"
+  ],
+  "quote": "official hosted MCP at https://api.grain.com/_/mcp with OAuth; API accepts PATs, Workspace Access Tokens, OAuth 2.0 + PKCE; free plans get no API access"
+ },
+ {
+  "id": 10,
+  "app": "DealCloud",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L1",
+  "why": "auth citation was a 404; search found the token page and an MCP section in the same docs",
+  "src": [
+   "https://api.docs.dealcloud.com/docs/token",
+   "https://api.docs.dealcloud.com/mcp/authentication"
+  ],
+  "quote": "Client Id and Secret are needed to generate a Token ... DealCloud MCP uses OAuth to authenticate"
+ },
+ {
+  "id": 52,
+  "app": "SE Ranking",
+  "field": "access",
+  "from": "paid",
+  "to": "trial",
+  "loop": "L3",
+  "why": "low-confidence row re-researched",
+  "src": [
+   "https://seranking.com/api-pricing.html",
+   "https://seranking.com/api/integrations/mcp/"
+  ],
+  "quote": "A free trial gives you 100K API credits across all six API endpoints, as well as MCP server access ... no credit card required"
+ },
+ {
+  "id": 52,
+  "app": "SE Ranking",
+  "field": "auth",
+  "from": [
+   "API key"
+  ],
+  "to": [
+   "API key",
+   "OAuth2"
+  ],
+  "loop": "L3",
+  "why": "low-confidence row re-researched",
+  "src": [
+   "https://seranking.com/api-pricing.html",
+   "https://seranking.com/api/integrations/mcp/"
+  ],
+  "quote": "A free trial gives you 100K API credits across all six API endpoints, as well as MCP server access ... no credit card required"
+ },
+ {
+  "id": 52,
+  "app": "SE Ranking",
+  "field": "verdict",
+  "from": "build-with-caveats",
+  "to": "build-now",
+  "loop": "L3",
+  "why": "low-confidence row re-researched",
+  "src": [
+   "https://seranking.com/api-pricing.html",
+   "https://seranking.com/api/integrations/mcp/"
+  ],
+  "quote": "A free trial gives you 100K API credits across all six API endpoints, as well as MCP server access ... no credit card required"
+ },
+ {
+  "id": 54,
+  "app": "MrScraper",
+  "field": "auth",
+  "from": [
+   "API key"
+  ],
+  "to": [
+   "Token"
+  ],
+  "loop": "L1",
+  "why": "homepage citations replaced with docs overview",
+  "src": [
+   "https://docs.mrscraper.com/"
+  ],
+  "quote": "Token Plan page explains how tokens work and create an API token for authentication"
+ },
+ {
+  "id": 60,
+  "app": "Clay",
+  "field": "auth",
+  "from": [
+   "API key"
+  ],
+  "to": [
+   "API key",
+   "OAuth2"
+  ],
+  "loop": "L3",
+  "why": "low-confidence row re-researched: Clay now has a public API and MCP on every plan",
+  "src": [
+   "https://developers.clay.com/public-api/authentication.md",
+   "https://www.clay.com/pricing"
+  ],
+  "quote": "Every request to the Clay Public API must include a Clay API key in the clay-api-key header. | Free: API access limited to 100 search results per 30 days; MCP: Yes"
+ },
+ {
+  "id": 60,
+  "app": "Clay",
+  "field": "access",
+  "from": "gated",
+  "to": "free",
+  "loop": "L3",
+  "why": "low-confidence row re-researched: Clay now has a public API and MCP on every plan",
+  "src": [
+   "https://developers.clay.com/public-api/authentication.md",
+   "https://www.clay.com/pricing"
+  ],
+  "quote": "Every request to the Clay Public API must include a Clay API key in the clay-api-key header. | Free: API access limited to 100 search results per 30 days; MCP: Yes"
+ },
+ {
+  "id": 60,
+  "app": "Clay",
+  "field": "breadth",
+  "from": "narrow",
+  "to": "moderate",
+  "loop": "L3",
+  "why": "low-confidence row re-researched: Clay now has a public API and MCP on every plan",
+  "src": [
+   "https://developers.clay.com/public-api/authentication.md",
+   "https://www.clay.com/pricing"
+  ],
+  "quote": "Every request to the Clay Public API must include a Clay API key in the clay-api-key header. | Free: API access limited to 100 search results per 30 days; MCP: Yes"
+ },
+ {
+  "id": 60,
+  "app": "Clay",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L3",
+  "why": "low-confidence row re-researched: Clay now has a public API and MCP on every plan",
+  "src": [
+   "https://developers.clay.com/public-api/authentication.md",
+   "https://www.clay.com/pricing"
+  ],
+  "quote": "Every request to the Clay Public API must include a Clay API key in the clay-api-key header. | Free: API access limited to 100 search results per 30 days; MCP: Yes"
+ },
+ {
+  "id": 60,
+  "app": "Clay",
+  "field": "verdict",
+  "from": "needs-outreach",
+  "to": "build-now",
+  "loop": "L3",
+  "why": "low-confidence row re-researched: Clay now has a public API and MCP on every plan",
+  "src": [
+   "https://developers.clay.com/public-api/authentication.md",
+   "https://www.clay.com/pricing"
+  ],
+  "quote": "Every request to the Clay Public API must include a Clay API key in the clay-api-key header. | Free: API access limited to 100 search results per 30 days; MCP: Yes"
+ },
+ {
+  "id": 87,
+  "app": "Xero",
+  "field": "verdict",
+  "from": "build-now",
+  "to": "build-with-caveats",
+  "loop": "L2",
+  "why": "access page conflict flag: limits page now says 'New apps default to the starter tier'",
+  "src": [
+   "https://developer.xero.com/faq/pricing-and-policy-updates",
+   "https://developer.xero.com/pricing"
+  ],
+  "quote": "moving to five tiers based on connections and data consumption via the Xero APIs, with changes effective 2 March 2026"
+ },
+ {
+  "id": 88,
+  "app": "Brex",
+  "field": "breadth",
+  "from": "moderate",
+  "to": "broad",
+  "loop": "L1",
+  "why": "access/API citations were 404s",
+  "src": [
+   "https://developer.brex.com/",
+   "https://developer.brex.com/docs/mcp"
+  ],
+  "quote": "An account or card admin has to accept the Developer API agreement in Settings → Developer"
+ },
+ {
+  "id": 92,
+  "app": "Otter AI",
+  "field": "auth",
+  "from": [
+   "OAuth2"
+  ],
+  "to": [
+   "OAuth2",
+   "API key"
+  ],
+  "loop": "L1",
+  "why": "cited help article was a 404; official connector listing + press confirm hosted MCP and an Enterprise-gated REST API",
+  "src": [
+   "https://claude.com/connectors/otter-ai",
+   "https://www.scalekit.com/blog/otter-mcp-vs-api"
+  ],
+  "quote": "Public API ... gated to Enterprise workspaces and authenticates with Bearer API keys"
+ },
+ {
+  "id": 92,
+  "app": "Otter AI",
+  "field": "api",
+  "from": [
+   "MCP-only"
+  ],
+  "to": [
+   "REST"
+  ],
+  "loop": "L1",
+  "why": "cited help article was a 404; official connector listing + press confirm hosted MCP and an Enterprise-gated REST API",
+  "src": [
+   "https://claude.com/connectors/otter-ai",
+   "https://www.scalekit.com/blog/otter-mcp-vs-api"
+  ],
+  "quote": "Public API ... gated to Enterprise workspaces and authenticates with Bearer API keys"
+ },
+ {
+  "id": 93,
+  "app": "Fathom",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L2b",
+  "why": "registry lists a fathom.ai-verified server; docs index lists MCP + OAuth pages",
+  "src": [
+   "https://developers.fathom.ai/llms.txt"
+  ],
+  "quote": "Connect your meeting data to LLMs using the Model Context Protocol."
+ },
+ {
+  "id": 98,
+  "app": "Mermaid CLI",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L2b",
+  "why": "registry lists a mermaidchart.com-verified server",
+  "src": [
+   "https://registry.modelcontextprotocol.io/v0/servers?search=mermaid"
+  ],
+  "quote": "com.mermaidchart/mermaid-mcp"
+ },
+ {
+  "id": 99,
+  "app": "YouTube Transcript",
+  "field": "mcp",
+  "from": "none",
+  "to": "official",
+  "loop": "L2b",
+  "why": "registry lists vendor server; docs page was thin, homepage documents auth/pricing/MCP",
+  "src": [
+   "https://transcriptapi.com/"
+  ],
+  "quote": "New accounts get 100 free credits to try the API — no card required ... TranscriptAPI runs an MCP server at https://transcriptapi.com/mcp"
+ },
+ {
+  "id": 72,
+  "app": "Airtable",
+  "field": "mcp",
+  "from": "community",
+  "to": "official",
+  "loop": "L2b",
+  "why": "MCP Registry lists an airtable.com-verified server (missed in the first patch pass, caught on loop iteration 2)",
+  "src": [
+   "https://registry.modelcontextprotocol.io/v0/servers?search=airtable"
+  ],
+  "quote": "com.airtable/mcp"
+ }
+]

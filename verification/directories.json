@@ -1,0 +1,503 @@
+{
+ "Pipedrive": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/pipedrive/",
+   "title": "Pipedrive plugin for ChatGPT | OpenAI"
+  }
+ },
+ "HubSpot": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/hubspot",
+   "title": "HubSpot connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/hubspot/",
+   "title": "HubSpot plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Salesforce": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/salesforce/",
+   "title": "Salesforce plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Zendesk": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/zendesk/",
+   "title": "Zendesk (Beta) plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Intercom": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/intercom",
+   "title": "Intercom connector | Claude by Anthropic"
+  }
+ },
+ "Close": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/close",
+   "title": "Close connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/close/",
+   "title": "Close plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Front": {},
+ "Attio": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/attio",
+   "title": "Attio connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/attio/",
+   "title": "Attio plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Twenty": {},
+ "Copper": {},
+ "Pylon": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/pylon",
+   "title": "Pylon connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/pylon/",
+   "title": "Pylon plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Podio": {},
+ "Slack": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/slack",
+   "title": "Slack connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/slack/",
+   "title": "Slack plugin for ChatGPT | OpenAI"
+  }
+ },
+ "DealCloud": {},
+ "LiveAgent": {},
+ "Freshdesk": {},
+ "Plain": {},
+ "Gorgias": {},
+ "Gladly": {},
+ "Discord": {},
+ "Lark (Larksuite)": {},
+ "Pumble": {},
+ "Telegram": {},
+ "Twilio": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/twilio",
+   "title": "Twilio connector | Claude by Anthropic"
+  }
+ },
+ "Klaviyo": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/klaviyo",
+   "title": "Klaviyo connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/klaviyo/",
+   "title": "Klaviyo plugin for ChatGPT | OpenAI"
+  }
+ },
+ "SendGrid": {},
+ "Aircall": {},
+ "Shopify": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/shopify",
+   "title": "Shopify connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/shopify/",
+   "title": "Shopify plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Vonage": {},
+ "Pinterest": {},
+ "Threads (Meta)": {},
+ "WooCommerce": {},
+ "BigCommerce": {},
+ "Squarespace": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/squarespace",
+   "title": "Squarespace connector | Claude by Anthropic"
+  }
+ },
+ "Ahrefs": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/ahrefs",
+   "title": "Ahrefs connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/ahrefs/",
+   "title": "Ahrefs plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Ecwid": {},
+ "Gumroad": {},
+ "Firecrawl": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/firecrawl",
+   "title": "Firecrawl connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/firecrawl/",
+   "title": "Firecrawl plugin for ChatGPT | OpenAI"
+  }
+ },
+ "DataForSEO": {},
+ "Clay": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/clay",
+   "title": "Clay connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/clay/",
+   "title": "Clay plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Vercel": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/vercel",
+   "title": "Vercel connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/vercel/",
+   "title": "Vercel plugin for ChatGPT | OpenAI"
+  }
+ },
+ "GitHub": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/github/",
+   "title": "GitHub plugin for ChatGPT | OpenAI"
+  }
+ },
+ "MrScraper": {},
+ "Netlify": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/netlify",
+   "title": "Netlify connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/netlify/",
+   "title": "Netlify plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Apify": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/apify",
+   "title": "Apify connector | Claude by Anthropic"
+  }
+ },
+ "Supabase": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/supabase",
+   "title": "Supabase connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/supabase/",
+   "title": "Supabase plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Snowflake": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/snowflake",
+   "title": "Snowflake connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/snowflake/",
+   "title": "Snowflake plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Datadog": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/datadog",
+   "title": "Datadog connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/datadog/",
+   "title": "Datadog plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Cloudflare": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/cloudflare",
+   "title": "Cloudflare Developer Platform connector | Claude by Anthropic"
+  }
+ },
+ "Sherlock": {},
+ "Notion": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/notion",
+   "title": "Notion connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/notion/",
+   "title": "Notion plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Airtable": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/airtable",
+   "title": "Airtable connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/airtable/",
+   "title": "Airtable plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Linear": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/linear",
+   "title": "Linear connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/linear/",
+   "title": "Linear plugin for ChatGPT | OpenAI"
+  }
+ },
+ "ClickUp": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/clickup",
+   "title": "ClickUp connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/clickup/",
+   "title": "ClickUp plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Asana": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/asana",
+   "title": "Asana connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/asana/",
+   "title": "Asana plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Neo4j": {},
+ "Coda": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/coda/",
+   "title": "Coda plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Binance": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/binance/",
+   "title": "Binance plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Stripe": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/stripe",
+   "title": "Stripe connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/stripe/",
+   "title": "Stripe plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Sentry": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/sentry",
+   "title": "Sentry connector | Claude by Anthropic"
+  }
+ },
+ "Harvest": {},
+ "Xero": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/xero",
+   "title": "Xero connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/xero/",
+   "title": "Xero plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Plaid": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/plaid",
+   "title": "Plaid Developer Tools connector | Claude by Anthropic"
+  }
+ },
+ "Smartsheet": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/smartsheet",
+   "title": "Smartsheet connector | Claude by Anthropic"
+  }
+ },
+ "Ramp": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/ramp",
+   "title": "Ramp connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/ramp/",
+   "title": "Ramp plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Fathom": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/fathom",
+   "title": "Fathom \u2013 Your Meeting Intelligence Layer connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/fathom/",
+   "title": "Fathom AI Notetaker plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Consensus": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/consensus",
+   "title": "Consensus connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/consensus/",
+   "title": "Consensus plugin for ChatGPT | OpenAI"
+  }
+ },
+ "iPayX": {},
+ "higgsfield": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/higgsfield/",
+   "title": "Higgsfield plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Help Scout": {},
+ "Grain": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/grain",
+   "title": "Grain connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/grain/",
+   "title": "Grain plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Brex": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/brex",
+   "title": "Brex connector | Claude by Anthropic"
+  }
+ },
+ "Mailchimp": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/intuit-mailchimp",
+   "title": "Intuit Mailchimp connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/mailchimp/",
+   "title": "Intuit Mailchimp plugin for ChatGPT | OpenAI"
+  }
+ },
+ "NotebookLM": {},
+ "Reducto": {},
+ "Devin": {},
+ "GoHighLevel": {},
+ "SE Ranking": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/se-ranking/",
+   "title": "SE Ranking plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Zoho Cliq": {},
+ "Google Ads": {},
+ "systeme.io": {},
+ "PitchBook": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/pitchbook",
+   "title": "PitchBook Premium connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/pitchbook/",
+   "title": "PitchBook plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Salesforce Commerce Cloud": {},
+ "Magento (Adobe Commerce)": {},
+ "Zoho CRM": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/zoho-crm",
+   "title": "Zoho CRM connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/zoho-crm/",
+   "title": "Zoho CRM plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Bright Data": {},
+ "fanbasis": {},
+ "MongoDB Atlas": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/mongodb/",
+   "title": "MongoDB Atlas plugin for ChatGPT | OpenAI"
+  },
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/mongodb-atlas",
+   "title": "MongoDB Atlas connector | Claude by Anthropic"
+  }
+ },
+ "Monday.com": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/monday",
+   "title": "monday.com connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/monday-com/",
+   "title": "monday.com plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Otter AI": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/otter-ai",
+   "title": "Otter.ai connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/otter-ai/",
+   "title": "Otter.ai plugin for ChatGPT | OpenAI"
+  }
+ },
+ "LinkedIn Ads": {
+  "openai": {
+   "url": "https://openai.com/business/plugins/linkedin/",
+   "title": "LinkedIn plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Mermaid CLI": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/mermaid-chart",
+   "title": "Mermaid Chart connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/mermaid-chart/",
+   "title": "Mermaid Chart plugin for ChatGPT | OpenAI"
+  }
+ },
+ "QuickBooks": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/quickbooks",
+   "title": "Intuit QuickBooks connector | Claude by Anthropic"
+  },
+  "openai": {
+   "url": "https://openai.com/business/plugins/quickbooks/",
+   "title": "Intuit QuickBooks plugin for ChatGPT | OpenAI"
+  }
+ },
+ "Paygent Connect": {},
+ "WhatsApp Business": {},
+ "Meta Ads": {},
+ "Jira": {},
+ "Waterfall.io": {},
+ "Amazon Selling Partner": {
+  "claude": {
+   "url": "https://claude.com/marketplace/connectors/amazon-selling-partner",
+   "title": "Amazon Selling Partner connector | Claude by Anthropic"
+  }
+ },
+ "YouTube Transcript": {}
+}

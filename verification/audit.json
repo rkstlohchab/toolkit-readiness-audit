@@ -1,0 +1,619 @@
+{
+ "truth": {
+  "2": {
+   "auth": [
+    "OAuth2",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://developers.hubspot.com/docs/getting-started/account-types",
+   "q": "Developer test accounts are free HubSpot accounts ... create up to 10 test accounts"
+  },
+  "3": {
+   "auth": [
+    "OAuth2",
+    "API key"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://openai.com/business/plugins/pipedrive/",
+   "q": "Official hosted MCP mcp.pipedrive.ai (Jun 2026); sandbox via Developer Hub form"
+  },
+  "9": {
+   "auth": [
+    "API key",
+    "OAuth2"
+   ],
+   "access": "trial",
+   "api": [
+    "REST"
+   ],
+   "mcp": false,
+   "verdict": "build-now",
+   "src": "https://developer.copper.com/introduction/authentication.html",
+   "q": "14-day trial, no card; API keys from Settings > Integrations (admin)"
+  },
+  "12": {
+   "auth": [
+    "OAuth2",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+   "q": "We provide you with an Access Token as soon as you create an app on your workspace"
+  },
+  "14": {
+   "auth": [
+    "OAuth2",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://dev.frontapp.com/docs/mcp-server",
+   "q": "free developer account through the Developer Portal; MCP server (beta) at mcp.frontapp.com/mcp"
+  },
+  "18": {
+   "auth": [
+    "OAuth2"
+   ],
+   "access": "trial",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://www.helpscout.com/pricing/",
+   "q": "API access ... Standard, Plus, Pro columns; Free plan doesn't list API access. MCP: mcp.helpscout.net"
+  },
+  "27": {
+   "auth": [
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": false,
+   "verdict": "build-now",
+   "src": "https://core.telegram.org/bots/api",
+   "q": "Bot token from @BotFather; no first-party MCP"
+  },
+  "29": {
+   "auth": [
+    "Basic",
+    "OAuth2"
+   ],
+   "access": "trial",
+   "api": [
+    "REST"
+   ],
+   "mcp": false,
+   "verdict": "build-with-caveats",
+   "src": "https://aircall.io/blog/tech/ai-ecosystem-developer-guide/",
+   "q": "developer account, valid as a trial for four months; 'we don't offer an MCP server'",
+   "conf": "medium"
+  },
+  "30": {
+   "auth": [
+    "API key",
+    "Signature"
+   ],
+   "access": "trial",
+   "api": [
+    "REST"
+   ],
+   "mcp": false,
+   "verdict": "build-now",
+   "src": "https://developer.vonage.com/en/getting-started/overview",
+   "q": "We'll give you some free credit when you first open your account; MCP is docs-only"
+  },
+  "31": {
+   "auth": [
+    "OAuth2"
+   ],
+   "access": "approval",
+   "api": [
+    "gRPC",
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-with-caveats",
+   "src": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+   "q": "developer token: test account access; Basic/Standard access after review"
+  },
+  "35": {
+   "auth": [
+    "OAuth2",
+    "API key"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://claude.com/connectors/intuit-mailchimp",
+   "q": "Intuit Mailchimp connector (official)"
+  },
+  "40": {
+   "auth": [
+    "API key"
+   ],
+   "access": "trial",
+   "api": [
+    "REST"
+   ],
+   "mcp": false,
+   "verdict": "build-now",
+   "src": "https://www.twilio.com/en-us/changelog/changes-coming-to-sendgrid-s-free-plans",
+   "q": "free plans retired May 2025; 60-day trial; no official SendGrid MCP"
+  },
+  "41": {
+   "auth": [
+    "OAuth2",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "GraphQL",
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://shopify.dev/docs/apps/build/devmcp",
+   "q": "Shopify Dev MCP; free dev stores"
+  },
+  "42": {
+   "auth": [
+    "API key",
+    "Basic",
+    "OAuth1"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-with-caveats",
+   "src": "https://developer.woocommerce.com/docs/features/mcp/",
+   "q": "abilities served through the WordPress MCP Adapter (developer preview)"
+  },
+  "45": {
+   "auth": [
+    "OAuth1",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST",
+    "GraphQL",
+    "SOAP"
+   ],
+   "mcp": false,
+   "verdict": "build-with-caveats",
+   "src": "https://developer.adobe.com/commerce/webapi/get-started/",
+   "q": "Support for GraphQL, REST and SOAP; Adobe MCPs are dev tooling only"
+  },
+  "51": {
+   "auth": [
+    "Basic"
+   ],
+   "access": "trial",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://docs.dataforseo.com/v3/auth/",
+   "q": "Basic auth login + API password; official MCP repo"
+  },
+  "52": {
+   "auth": [
+    "API key"
+   ],
+   "access": "trial",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://seranking.com/api-pricing.html",
+   "q": "free trial gives you 100K API credits ... as well as MCP server access ... no credit card required",
+   "auth_opt": [
+    "OAuth2"
+   ]
+  },
+  "53": {
+   "auth": [
+    "API key"
+   ],
+   "access": "paid",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-with-caveats",
+   "src": "https://help.ahrefs.com/en/articles/6559232-about-api-v3-for-enterprise-plan-customers",
+   "q": "API v3 ... possible for Lite and higher subscription plans"
+  },
+  "62": {
+   "auth": [
+    "Token",
+    "OAuth2"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://vercel.com/docs/rest-api",
+   "q": "Bearer access tokens; Vercel MCP"
+  },
+  "65": {
+   "auth": [
+    "Token",
+    "OAuth2",
+    "API key"
+   ],
+   "access": "free",
+   "api": [
+    "REST",
+    "GraphQL"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://supabase.com/docs/guides/graphql",
+   "q": "Management API PAT/OAuth; GraphQL API; Supabase MCP"
+  },
+  "67": {
+   "auth": [
+    "Signature",
+    "OAuth2",
+    "Token"
+   ],
+   "access": "trial",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+   "q": "30-day trial accounts; key-pair JWT / OAuth / PAT"
+  },
+  "71": {
+   "auth": [
+    "OAuth2",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://developers.notion.com/docs/authorization",
+   "q": "public integrations use OAuth; internal integration tokens"
+  },
+  "74": {
+   "auth": [
+    "OAuth2",
+    "Basic",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+   "q": "OAuth 2.0 (3LO); API token with Basic; free developer instance"
+  },
+  "78": {
+   "auth": [
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://openai.com/business/plugins/coda/",
+   "q": "Developer: Superhuman Platform Inc. ... query tables, creating or updating rows"
+  },
+  "86": {
+   "auth": [
+    "OAuth2"
+   ],
+   "access": "approval",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-with-caveats",
+   "src": "https://developer.intuit.com/app/developer/qbo/docs/go-live/publish-app",
+   "q": "The Show Credentials switch appears only after the App Assessment Questionnaire is approved."
+  },
+  "88": {
+   "auth": [
+    "Token",
+    "OAuth2"
+   ],
+   "access": "approval",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "needs-outreach",
+   "src": "https://developer.brex.com/docs/mcp",
+   "q": "admin must accept the Developer API agreement; Brex MCP at api.brex.com/mcp"
+  },
+  "90": {
+   "auth": [
+    "API key"
+   ],
+   "access": "gated",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "needs-outreach",
+   "src": "https://pitchbook.com/help/getting-started-with-pitchbook-premium-connector",
+   "q": "you need a seat-based, unlimited, or trial PitchBook license and SSO",
+   "conf": "medium"
+  },
+  "93": {
+   "auth": [
+    "API key",
+    "OAuth2"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://developers.fathom.ai/llms.txt",
+   "q": "Generate an API key (User Settings > API Access); official Fathom MCP; API on all plans incl. free (third-party + FAQ)",
+   "conf": "medium"
+  },
+  "98": {
+   "auth": [
+    "None"
+   ],
+   "access": "local",
+   "api": [
+    "CLI/library"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://registry.modelcontextprotocol.io/v0/servers?search=mermaid",
+   "q": "com.mermaidchart/mermaid-mcp (Mermaid Chart, the company behind Mermaid)"
+  },
+  "100": {
+   "auth": [
+    "Token",
+    "OAuth2"
+   ],
+   "access": "paid",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-with-caveats",
+   "src": "https://developers.grain.com/",
+   "q": "Personal Access Token ...; OAuth 2.0 + PKCE; free plans get no API access; MCP api.grain.com/_/mcp"
+  }
+ },
+ "evidence_failures": {
+  "pass1": {
+   "14": "access URL 404",
+   "18": "pricing page does not support 'free API'",
+   "29": "access URL is the partner OAuth tutorial; does not support 'paid'",
+   "30": "access page never mentions free credit",
+   "31": "API page lacks gRPC",
+   "45": "API page lacks SOAP",
+   "52": "official MCP claimed with no citation",
+   "53": "access URL redirects to docs home; MCP uncited",
+   "65": "API page lacks GraphQL",
+   "86": "cited go-live page contradicts 'free' (approval gate)",
+   "88": "access + API URLs 404",
+   "90": "auth/access/API URLs 404; MCP uncited"
+  },
+  "pass2": {
+   "18": "pricing page does not support 'free API'",
+   "29": "access URL does not support 'paid'",
+   "30": "access page never mentions free credit",
+   "86": "cited go-live page contradicts 'free'"
+  },
+  "final": {}
+ },
+ "notes": {
+  "auditor": "Claude Code (Opus 5.5) reading primary vendor docs with neutral questions (WebFetch/WebSearch + headless Chrome); labels adjudicated against quotes. Human sign-off: see human_review.csv.",
+  "rejected_directory_hits": [
+   "LinkedIn Ads: ChatGPT app is profile lookup, not Ads"
+  ]
+ },
+ "holdout_truth": {
+  "6": {
+   "auth": [
+    "OAuth2"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://developers.podio.com/index/faq",
+   "q": "The Podio API is free to use for both premium and free Podio accounts; official MCP (beta) at mcp.podio.com"
+  },
+  "20": {
+   "auth": [
+    "Basic"
+   ],
+   "access": "gated",
+   "api": [
+    "REST"
+   ],
+   "mcp": false,
+   "verdict": "needs-outreach",
+   "src": "https://developer.gladly.com/rest/",
+   "q": "Admin-created API tokens; enterprise customers only; no vendor MCP found"
+  },
+  "24": {
+   "auth": [
+    "OAuth2",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://github.com/larksuite/lark-openapi-mcp",
+   "q": "app_id/app_secret tenant tokens + user OAuth; official lark-openapi-mcp"
+  },
+  "34": {
+   "auth": [
+    "OAuth2",
+    "Token"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount",
+   "q": "Sandbox accounts are made in the Marketplace Developer Portal ... active for up to 6 months ... trial access to Enterprise features"
+  },
+  "46": {
+   "auth": [
+    "API key",
+    "OAuth2"
+   ],
+   "access": "paid",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-with-caveats",
+   "src": "https://claude.com/connectors/squarespace",
+   "q": "Commerce APIs need a paid commerce plan (medium confidence); official MCP mcp.squarespace.com",
+   "conf": "medium"
+  },
+  "56": {
+   "auth": [
+    "API key"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://www.firecrawl.dev/pricing",
+   "q": "Free Plan ... No cost, no card ... 1,000 credits / month"
+  },
+  "68": {
+   "auth": [
+    "OAuth2",
+    "API key"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+   "q": "Service accounts (OAuth 2.0) or API keys; free M0 cluster; mongodb-mcp-server"
+  },
+  "77": {
+   "auth": [
+    "Token",
+    "OAuth2"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-now",
+   "src": "https://help.clickup.com/hc/en-us/articles/33335772678423-What-is-ClickUp-MCP",
+   "q": "ClickUp MCP is available on all plans"
+  },
+  "89": {
+   "auth": [
+    "OAuth2"
+   ],
+   "access": "approval",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-with-caveats",
+   "src": "https://docs.ramp.com/llms-full.txt",
+   "q": "Need a test environment for development? Request sandbox access"
+  },
+  "92": {
+   "auth": [
+    "OAuth2",
+    "API key"
+   ],
+   "access": "free",
+   "api": [
+    "REST"
+   ],
+   "mcp": true,
+   "verdict": "build-with-caveats",
+   "src": "https://otter.ai/pricing.md",
+   "q": "Basic (free) ... Otter MCP server; public API on Enterprise"
+  }
+ },
+ "holdout_evidence_failures": {
+  "pass1": {
+   "6": "access page thin and silent on free tier",
+   "20": "access URL redirected to marketing homepage",
+   "24": "auth/API docs are SPA shells; access is portal homepage",
+   "34": "all citations are empty SPAs; MCP uncited",
+   "46": "access cites partner-OAuth page, not plan requirement",
+   "77": "official MCP uncited",
+   "92": "auth/API/MCP URLs 404"
+  },
+  "pass2": {
+   "20": "access page does not state customer-only",
+   "24": "API docs SPA shell; access is portal homepage",
+   "34": "access cites marketplace homepage (empty); API stoplight SPA",
+   "46": "access cites partner-OAuth page, not plan requirement"
+  },
+  "final": {
+   "20": "access page does not state customer-only",
+   "24": "API docs SPA shell; access is portal homepage",
+   "34": "access cites marketplace homepage (empty); API stoplight SPA",
+   "46": "access cites partner-OAuth page, not plan requirement"
+  }
+ }
+}

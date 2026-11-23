@@ -1,0 +1,1022 @@
+{
+ "1": {
+  "term": "salesforce",
+  "entries": 19,
+  "official": [],
+  "verdict": "community"
+ },
+ "2": {
+  "term": "hubspot",
+  "entries": 11,
+  "official": [],
+  "verdict": "community"
+ },
+ "3": {
+  "term": "pipedrive",
+  "entries": 6,
+  "official": [],
+  "verdict": "community"
+ },
+ "4": {
+  "term": "attio",
+  "entries": 5,
+  "official": [],
+  "verdict": "community"
+ },
+ "5": {
+  "term": "twenty",
+  "entries": 4,
+  "official": [],
+  "verdict": "community"
+ },
+ "6": {
+  "term": "podio",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "7": {
+  "term": "zoho",
+  "entries": 5,
+  "official": [],
+  "verdict": "community"
+ },
+ "8": {
+  "term": "close",
+  "entries": 33,
+  "official": [
+   {
+    "name": "com.close/close-mcp",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.close.com/mcp"
+    ],
+    "repo": ""
+   }
+  ],
+  "verdict": "official"
+ },
+ "9": {
+  "term": "copper",
+  "entries": 4,
+  "official": [],
+  "verdict": "community"
+ },
+ "10": {
+  "term": "dealcloud",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "11": {
+  "term": "zendesk",
+  "entries": 8,
+  "official": [],
+  "verdict": "community"
+ },
+ "12": {
+  "term": "intercom",
+  "entries": 3,
+  "official": [],
+  "verdict": "community"
+ },
+ "13": {
+  "term": "freshdesk",
+  "entries": 6,
+  "official": [],
+  "verdict": "community"
+ },
+ "14": {
+  "term": "front",
+  "entries": 85,
+  "official": [],
+  "verdict": "community"
+ },
+ "15": {
+  "term": "pylon",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "16": {
+  "term": "liveagent",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "17": {
+  "term": "plain",
+  "entries": 61,
+  "official": [
+   {
+    "name": "com.plain/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.plain.com/mcp"
+    ],
+    "repo": ""
+   }
+  ],
+  "verdict": "official"
+ },
+ "18": {
+  "term": "helpscout",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "19": {
+  "term": "gorgias",
+  "entries": 1,
+  "official": [],
+  "verdict": "community"
+ },
+ "20": {
+  "term": "gladly",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "21": {
+  "term": "slack",
+  "entries": 25,
+  "official": [],
+  "verdict": "community"
+ },
+ "22": {
+  "term": "twilio",
+  "entries": 3,
+  "official": [],
+  "verdict": "community"
+ },
+ "23": {
+  "term": "cliq",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "24": {
+  "term": "lark",
+  "entries": 22,
+  "official": [],
+  "verdict": "community"
+ },
+ "25": {
+  "term": "pumble",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "26": {
+  "term": "discord",
+  "entries": 33,
+  "official": [],
+  "verdict": "community"
+ },
+ "27": {
+  "term": "telegram",
+  "entries": 54,
+  "official": [],
+  "verdict": "community"
+ },
+ "28": {
+  "term": "whatsapp",
+  "entries": 56,
+  "official": [],
+  "verdict": "community"
+ },
+ "29": {
+  "term": "aircall",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "30": {
+  "term": "vonage",
+  "entries": 1,
+  "official": [
+   {
+    "name": "io.github.Vonage/vonage-documentation-mcp",
+    "how": "github-namespace",
+    "remote": [
+     "https://documentation-mcp.vonage.dev/mcp"
+    ],
+    "repo": "https://github.com/Vonage/vonage-mcp-server-documentation"
+   }
+  ],
+  "verdict": "official"
+ },
+ "31": {
+  "term": "google-ads",
+  "entries": 45,
+  "official": [],
+  "verdict": "community"
+ },
+ "32": {
+  "term": "meta-ads",
+  "entries": 16,
+  "official": [],
+  "verdict": "community"
+ },
+ "33": {
+  "term": "linkedin",
+  "entries": 82,
+  "official": [],
+  "verdict": "community"
+ },
+ "34": {
+  "term": "highlevel",
+  "entries": 6,
+  "official": [],
+  "verdict": "community"
+ },
+ "35": {
+  "term": "mailchimp",
+  "entries": 6,
+  "official": [],
+  "verdict": "community"
+ },
+ "36": {
+  "term": "klaviyo",
+  "entries": 5,
+  "official": [],
+  "verdict": "community"
+ },
+ "37": {
+  "term": "systeme",
+  "entries": 1,
+  "official": [],
+  "verdict": "community"
+ },
+ "38": {
+  "term": "pinterest",
+  "entries": 20,
+  "official": [],
+  "verdict": "community"
+ },
+ "39": {
+  "term": "threads",
+  "entries": 13,
+  "official": [],
+  "verdict": "community"
+ },
+ "40": {
+  "term": "sendgrid",
+  "entries": 6,
+  "official": [],
+  "verdict": "community"
+ },
+ "41": {
+  "term": "shopify",
+  "entries": 62,
+  "official": [],
+  "verdict": "community"
+ },
+ "42": {
+  "term": "woocommerce",
+  "entries": 8,
+  "official": [],
+  "verdict": "community"
+ },
+ "43": {
+  "term": "bigcommerce",
+  "entries": 1,
+  "official": [],
+  "verdict": "community"
+ },
+ "44": {
+  "term": "commerce-cloud",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "45": {
+  "term": "magento",
+  "entries": 4,
+  "official": [],
+  "verdict": "community"
+ },
+ "46": {
+  "term": "squarespace",
+  "entries": 1,
+  "official": [],
+  "verdict": "community"
+ },
+ "47": {
+  "term": "ecwid",
+  "entries": 1,
+  "official": [],
+  "verdict": "community"
+ },
+ "48": {
+  "term": "gumroad",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "49": {
+  "term": "amazon-sp",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "50": {
+  "term": "fanbasis",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "51": {
+  "term": "dataforseo",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "52": {
+  "term": "seranking",
+  "entries": 1,
+  "official": [
+   {
+    "name": "com.seranking/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://api.seranking.com/mcp"
+    ],
+    "repo": ""
+   }
+  ],
+  "verdict": "official"
+ },
+ "53": {
+  "term": "ahrefs",
+  "entries": 3,
+  "official": [
+   {
+    "name": "com.ahrefs/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://api.ahrefs.com/mcp/mcp"
+    ],
+    "repo": ""
+   }
+  ],
+  "verdict": "official"
+ },
+ "54": {
+  "term": "mrscraper",
+  "entries": 1,
+  "official": [
+   {
+    "name": "io.github.mrscraper-com/mrscraper-mcp",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.mrscraper.com/mcp"
+    ],
+    "repo": "https://github.com/mrscraper-com/mrscraper-mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "55": {
+  "term": "apify",
+  "entries": 33,
+  "official": [
+   {
+    "name": "ai.xomia/xomiadata-apify-actors",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=xomiadata/fr-company-check,xomiadata/fr-product-recalls,xomiadata/boamp-tenders-ai,xomiadata/ted-tenders-ai,xomiadata/company-health-history,xomiadata/job-postings-history,xomiadata/domain-trust-score"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "com.apify/apify-mcp-server",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.apify.com/"
+    ],
+    "repo": "https://github.com/apify/apify-mcp-server"
+   },
+   {
+    "name": "com.brasspage/apify-actors",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=brasspage/careers-site-jobs-api,brasspage/pdf-ocr-to-markdown,brasspage/lighthouse-bulk-audit,brasspage/media-transcriber,brasspage/google-sheets-sync,brasspage/website-contact-tech-audit"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "com.clearfeedlabs/apify-data-feeds",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com/?actors=clearfeedlabs/grant-fellowship-radar,clearfeedlabs/entry-jobs-feed,clearfeedlabs/ats-jobs-feed,clearfeedlabs/form4-insider-trades,clearfeedlabs/form-d-funding-feed,clearfeedlabs/storm-roofing-feed,clearfeedlabs/local-business-leads,clearfeedlabs/company-contact-enrichment"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "dev.tanod/apify-document-to-markdown",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=tanod/document-to-markdown"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "dev.tanod/apify-image-ocr",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=tanod/image-ocr"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "dev.tanod/apify-pdf-ocr",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=tanod/pdf-ocr"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "dev.tanod/apify-pdf-toolkit",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=tanod/pdf-toolkit"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "io.github.AHMEDFOUAAD/apify-public-jobs",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com/?tools=ahmed.fouaad82/greenhouse-public-jobs,ahmed.fouaad82/lever-salary-jobs,ahmed.fouaad82/ats-public-jobs"
+    ],
+    "repo": "https://github.com/AHMEDFOUAAD/apify-mcp-data-presets"
+   },
+   {
+    "name": "io.github.AHMEDFOUAAD/apify-rag-content",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com/?tools=ahmed.fouaad82/rss-feed-reader,ahmed.fouaad82/podcast-published-transcripts,ahmed.fouaad82/public-pdf-text"
+    ],
+    "repo": "https://github.com/AHMEDFOUAAD/apify-mcp-data-presets"
+   },
+   {
+    "name": "io.github.AHMEDFOUAAD/apify-site-audit",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com/?tools=ahmed.fouaad82/sitemap-extractor,ahmed.fouaad82/url-status-checker,ahmed.fouaad82/dataset-dedup-merge"
+    ],
+    "repo": "https://github.com/AHMEDFOUAAD/apify-mcp-data-presets"
+   },
+   {
+    "name": "io.github.AndriyVK/apify-document-tools",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=ai_admin/document-to-markdown,ai_admin/office-to-pdf,ai_admin/pdf-image-converter,ai_admin/audio-transcriber"
+    ],
+    "repo": "https://github.com/AndriyVK/-apify-document-tools"
+   },
+   {
+    "name": "io.github.VZezelin/signal-lab-apify-tools",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=signal_lab/amazon-price-tracker,signal_lab/google-autocomplete-keywords,signal_lab/website-to-markdown-crawler,signal_lab/youtube-transcript-scraper,signal_lab/reddit-search-comments,signal_lab/job-vacancy-scraper,signal_lab/restaurant-menu-extractor"
+    ],
+    "repo": "https://github.com/VZezelin/first"
+   },
+   {
+    "name": "io.github.amitudai/micro-tool-factory-apify",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=micro-tool-factory/shopify-products,micro-tool-factory/shopify-variants,micro-tool-factory/multi-ats-jobs,micro-tool-factory/greenhouse-jobs,micro-tool-factory/sitemap-urls"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "io.github.apifymcpfactory-droid/eu-vat-validator",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=apifmcpfactory/eu-vat-validator"
+    ],
+    "repo": "https://github.com/apifymcpfactory-droid/mcp-factory-servers"
+   },
+   {
+    "name": "io.github.apifymcpfactory-droid/llms-txt-checker",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=apifmcpfactory/llms-txt-checker"
+    ],
+    "repo": "https://github.com/apifymcpfactory-droid/mcp-factory-servers"
+   },
+   {
+    "name": "io.github.apifymcpfactory-droid/tech-stack-detector",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=apifmcpfactory/tech-stack-detector"
+    ],
+    "repo": "https://github.com/apifymcpfactory-droid/mcp-factory-servers"
+   },
+   {
+    "name": "io.github.headply/apify-data-tools",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com/?tools=headply/threads-scraper,headply/threads-keyword-search-scraper,headply/yelp-scraper,headply/yelp-reviews-scraper,headply/tiktok-youtube-transcript-scraper,headply/google-trends-scraper,headply/google-trends-trending-now,headply/airbnb-occupancy-revenue-estimator,headply/airbnb-vrbo-scraper,headply/jumia-price-intelligence"
+    ],
+    "repo": "https://github.com/headply/apify-data-tools-mcp"
+   },
+   {
+    "name": "io.github.maindtim/rock-apify-tools",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com?tools=rock-ai-tools/pdf-to-text-chunks-rag-ready,rock-ai-tools/csv-cleaner-deduplicator,rock-ai-tools/bulk-link-checker,rock-ai-tools/sitemap-to-url-list,rock-ai-tools/bulk-email-syntax-mx-validator,rock-ai-tools/bulk-phone-number-format-validator,rock-ai-tools/eu-vat-validator"
+    ],
+    "repo": "https://github.com/maindtim/rock-apify-mcp-tools"
+   },
+   {
+    "name": "io.github.msalihk/saliga-apify-tools",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com/?tools=saliga/bulk-http-requests,saliga/document-to-markdown,saliga/image-to-text-ocr,saliga/audio-to-text,saliga/video-to-scenes,saliga/website-screenshot-change-detection,saliga/sitemap-extractor,saliga/broken-link-checker,saliga/tech-stack-detector,saliga/keyword-search-volume,saliga/career-site-jobs"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "io.github.tidytools/tidytools-apify-tools",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.apify.com/?tools=tidytools/website-contact-extractor,tidytools/website-markdown-crawler,tidytools/document-to-markdown,tidytools/audio-transcriber,tidytools/ai-crawler-access-checker"
+    ],
+    "repo": "https://github.com/tidytools/tidytools-apify-mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "56": {
+  "term": "firecrawl",
+  "entries": 5,
+  "official": [
+   {
+    "name": "io.github.firecrawl/firecrawl-mcp-server",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/firecrawl/firecrawl-mcp-server.git"
+   }
+  ],
+  "verdict": "official"
+ },
+ "57": {
+  "term": "brightdata",
+  "entries": 2,
+  "official": [
+   {
+    "name": "ai.smithery/luminati-io-brightdata-mcp",
+    "how": "github-repo",
+    "remote": [
+     "https://server.smithery.ai/@luminati-io/brightdata-mcp/mcp"
+    ],
+    "repo": "https://github.com/brightdata/brightdata-mcp-sse"
+   },
+   {
+    "name": "io.github.brightdata/brightdata-mcp",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/brightdata/brightdata-mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "58": {
+  "term": "sherlock",
+  "entries": 3,
+  "official": [],
+  "verdict": "community"
+ },
+ "59": {
+  "term": "waterfall",
+  "entries": 3,
+  "official": [],
+  "verdict": "community"
+ },
+ "60": {
+  "term": "clay",
+  "entries": 11,
+  "official": [],
+  "verdict": "community"
+ },
+ "61": {
+  "term": "github",
+  "entries": 61,
+  "official": [],
+  "verdict": "community"
+ },
+ "62": {
+  "term": "vercel",
+  "entries": 56,
+  "official": [
+   {
+    "name": "com.vercel/vercel-mcp",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.vercel.com"
+    ],
+    "repo": ""
+   },
+   {
+    "name": "io.github.vercel/next-devtools-mcp",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/vercel/next-devtools-mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "63": {
+  "term": "netlify",
+  "entries": 17,
+  "official": [],
+  "verdict": "community"
+ },
+ "64": {
+  "term": "cloudflare",
+  "entries": 40,
+  "official": [
+   {
+    "name": "com.cloudflare.mcp/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://docs.mcp.cloudflare.com/mcp"
+    ],
+    "repo": "https://github.com/cloudflare/mcp-server-cloudflare"
+   }
+  ],
+  "verdict": "official"
+ },
+ "65": {
+  "term": "supabase",
+  "entries": 8,
+  "official": [
+   {
+    "name": "com.supabase/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.supabase.com/mcp"
+    ],
+    "repo": "https://github.com/supabase/mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "66": {
+  "term": "neo4j",
+  "entries": 6,
+  "official": [
+   {
+    "name": "io.github.neo4j-contrib/gds-agent",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/neo4j-contrib/gds-agent"
+   },
+   {
+    "name": "io.github.neo4j-contrib/mcp-neo4j-aura-manager",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/neo4j-contrib/mcp-neo4j"
+   },
+   {
+    "name": "io.github.neo4j-contrib/mcp-neo4j-cypher",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/neo4j-contrib/mcp-neo4j"
+   },
+   {
+    "name": "io.github.neo4j-contrib/mcp-neo4j-data-modeling",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/neo4j-contrib/mcp-neo4j"
+   },
+   {
+    "name": "io.github.neo4j-contrib/mcp-neo4j-memory",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/neo4j-contrib/mcp-neo4j"
+   }
+  ],
+  "verdict": "official"
+ },
+ "67": {
+  "term": "snowflake",
+  "entries": 9,
+  "official": [
+   {
+    "name": "io.github.Snowflake-Labs/mcp",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/Snowflake-Labs/mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "68": {
+  "term": "mongodb",
+  "entries": 7,
+  "official": [
+   {
+    "name": "io.github.mongodb-js/mongodb-mcp-server",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/mongodb-js/mongodb-mcp-server"
+   }
+  ],
+  "verdict": "official"
+ },
+ "69": {
+  "term": "datadog",
+  "entries": 3,
+  "official": [],
+  "verdict": "community"
+ },
+ "70": {
+  "term": "sentry",
+  "entries": 20,
+  "official": [
+   {
+    "name": "io.github.getsentry/sentry-mcp",
+    "how": "github-namespace",
+    "remote": [],
+    "repo": "https://github.com/getsentry/sentry-mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "71": {
+  "term": "notion",
+  "entries": 19,
+  "official": [
+   {
+    "name": "com.notion/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.notion.com/mcp"
+    ],
+    "repo": "https://github.com/makenotion/notion-next"
+   }
+  ],
+  "verdict": "official"
+ },
+ "72": {
+  "term": "airtable",
+  "entries": 9,
+  "official": [
+   {
+    "name": "com.airtable/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.airtable.com/mcp"
+    ],
+    "repo": ""
+   }
+  ],
+  "verdict": "official"
+ },
+ "73": {
+  "term": "linear",
+  "entries": 14,
+  "official": [
+   {
+    "name": "app.linear/linear",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.linear.app/sse"
+    ],
+    "repo": ""
+   }
+  ],
+  "verdict": "official"
+ },
+ "74": {
+  "term": "atlassian",
+  "entries": 15,
+  "official": [
+   {
+    "name": "com.atlassian/atlassian-mcp-server",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.atlassian.com/v1/sse"
+    ],
+    "repo": ""
+   }
+  ],
+  "verdict": "official"
+ },
+ "75": {
+  "term": "asana",
+  "entries": 10,
+  "official": [],
+  "verdict": "community"
+ },
+ "76": {
+  "term": "monday",
+  "entries": 5,
+  "official": [
+   {
+    "name": "com.monday/monday.com",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.monday.com/mcp"
+    ],
+    "repo": "https://github.com/mondaycom/mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "77": {
+  "term": "clickup",
+  "entries": 11,
+  "official": [],
+  "verdict": "community"
+ },
+ "78": {
+  "term": "coda",
+  "entries": 15,
+  "official": [],
+  "verdict": "community"
+ },
+ "79": {
+  "term": "smartsheet",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "80": {
+  "term": "harvest",
+  "entries": 16,
+  "official": [],
+  "verdict": "community"
+ },
+ "81": {
+  "term": "stripe",
+  "entries": 17,
+  "official": [
+   {
+    "name": "com.stripe/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.stripe.com"
+    ],
+    "repo": "https://github.com/stripe/agent-toolkit"
+   }
+  ],
+  "verdict": "official"
+ },
+ "82": {
+  "term": "plaid",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "83": {
+  "term": "binance",
+  "entries": 5,
+  "official": [],
+  "verdict": "community"
+ },
+ "84": {
+  "term": "paygent",
+  "entries": 4,
+  "official": [],
+  "verdict": "community"
+ },
+ "85": {
+  "term": "ipayx",
+  "entries": 2,
+  "official": [
+   {
+    "name": "io.github.iPAYX-Technologies/mcp-fx-audit",
+    "how": "remote-host",
+    "remote": [
+     "https://mcp.ipayx.ai"
+    ],
+    "repo": "https://github.com/iPAYX-Technologies/mcp-fx-audit"
+   }
+  ],
+  "verdict": "official"
+ },
+ "86": {
+  "term": "quickbooks",
+  "entries": 19,
+  "official": [],
+  "verdict": "community"
+ },
+ "87": {
+  "term": "xero",
+  "entries": 13,
+  "official": [],
+  "verdict": "community"
+ },
+ "88": {
+  "term": "brex",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "89": {
+  "term": "ramp",
+  "entries": 26,
+  "official": [],
+  "verdict": "community"
+ },
+ "90": {
+  "term": "pitchbook",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "91": {
+  "term": "notebooklm",
+  "entries": 4,
+  "official": [],
+  "verdict": "community"
+ },
+ "92": {
+  "term": "otter",
+  "entries": 33,
+  "official": [],
+  "verdict": "community"
+ },
+ "93": {
+  "term": "fathom",
+  "entries": 11,
+  "official": [
+   {
+    "name": "ai.fathom.api/mcp",
+    "how": "namespace",
+    "remote": [
+     "https://api.fathom.ai/mcp"
+    ],
+    "repo": ""
+   }
+  ],
+  "verdict": "official"
+ },
+ "94": {
+  "term": "consensus",
+  "entries": 10,
+  "official": [],
+  "verdict": "community"
+ },
+ "95": {
+  "term": "reducto",
+  "entries": 0,
+  "official": [],
+  "verdict": "absent"
+ },
+ "96": {
+  "term": "devin",
+  "entries": 10,
+  "official": [],
+  "verdict": "community"
+ },
+ "97": {
+  "term": "higgsfield",
+  "entries": 2,
+  "official": [],
+  "verdict": "community"
+ },
+ "98": {
+  "term": "mermaid",
+  "entries": 7,
+  "official": [
+   {
+    "name": "com.mermaidchart/mermaid-mcp",
+    "how": "namespace",
+    "remote": [
+     "https://mcp.mermaidchart.com/mcp"
+    ],
+    "repo": "https://github.com/Mermaid-Chart/mermaid-mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "99": {
+  "term": "transcriptapi",
+  "entries": 4,
+  "official": [
+   {
+    "name": "com.transcriptapi/youtube-transcript-and-youtube-search",
+    "how": "namespace",
+    "remote": [
+     "https://transcriptapi.com/mcp"
+    ],
+    "repo": "https://github.com/ZeroPointRepo/youtube-mcp"
+   }
+  ],
+  "verdict": "official"
+ },
+ "100": {
+  "term": "grain",
+  "entries": 19,
+  "official": [],
+  "verdict": "community"
+ }
+}

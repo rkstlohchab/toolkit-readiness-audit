@@ -1,0 +1,2747 @@
+{
+ "summary": {
+  "tag": "final",
+  "rows": 100,
+  "rows_flagged": 43,
+  "flags_by_loop": {
+   "L1": 33,
+   "L2": 41,
+   "L2b": 5,
+   "L3": 11
+  },
+  "flags_by_field": {
+   "L1:access": 7,
+   "L2:api": 5,
+   "L2:mcp": 4,
+   "L2b:mcp": 5,
+   "L2:access": 24,
+   "L1:api": 15,
+   "L3:absence of MCP asserted at <high confidence (search loop)": 5,
+   "L2:auth": 8,
+   "L1:mcp": 4,
+   "L1:auth": 7,
+   "L3:agent self-reported low confidence": 3,
+   "L3:single URL cited for every field": 3
+  },
+  "claims": {
+   "auth_methods": 162,
+   "auth_supported": 143,
+   "access_supported": 85,
+   "access_conflicts": 17,
+   "mcp_official_claims": 84,
+   "mcp_official_supported": 80,
+   "links_ok": 354,
+   "links_total": 387
+  }
+ },
+ "rows": [
+  {
+   "id": 1,
+   "app": "Salesforce",
+   "flags": [
+    "L1:access:thin(needs browser/human read)",
+    "L2:api:SOAP-not-on-page"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported",
+     "SOAP": "unsupported",
+     "GraphQL": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "thin",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 2,
+   "app": "HubSpot",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 3,
+   "app": "Pipedrive",
+   "flags": [
+    "L2:mcp:official-claim-unsupported",
+    "L2b:mcp:official claim has no grounded citation and no registry entry"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "unsupported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 4,
+   "app": "Attio",
+   "flags": [
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 5,
+   "app": "Twenty",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported",
+     "GraphQL": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 6,
+   "app": "Podio",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 7,
+   "app": "Zoho CRM",
+   "flags": [
+    "L1:api:thin(needs browser/human read)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "weak",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "thin",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 8,
+   "app": "Close",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 9,
+   "app": "Copper",
+   "flags": [
+    "L3:absence of MCP asserted at <high confidence (search loop)"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 10,
+   "app": "DealCloud",
+   "flags": [
+    "L1:api:homepage-citation"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "homepage",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 11,
+   "app": "Zendesk",
+   "flags": [
+    "L2:mcp:official-claim-unsupported",
+    "L2b:mcp:official claim has no grounded citation and no registry entry"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "API key": "supported",
+     "Basic": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "unsupported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 12,
+   "app": "Intercom",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "weak",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 13,
+   "app": "Freshdesk",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "Basic": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 14,
+   "app": "Front",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 15,
+   "app": "Pylon",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 16,
+   "app": "LiveAgent",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 17,
+   "app": "Plain",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "GraphQL": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 18,
+   "app": "Help Scout",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 19,
+   "app": "Gorgias",
+   "flags": [
+    "L2:auth:Basic-not-on-page"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "Basic": "unsupported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 20,
+   "app": "Gladly",
+   "flags": [
+    "L2:access:gated-not-on-page",
+    "L2:access:conflict(claims gated, page shows free/sandbox language)",
+    "L3:absence of MCP asserted at <high confidence (search loop)"
+   ],
+   "fields": {
+    "auth": {
+     "Basic": "supported"
+    },
+    "access": {
+     "state": "unsupported",
+     "conflict": "claims gated, page shows free/sandbox language"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 21,
+   "app": "Slack",
+   "flags": [
+    "L2:api:WebSocket-not-on-page"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak",
+     "WebSocket": "unsupported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 22,
+   "app": "Twilio",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Basic": "supported",
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 23,
+   "app": "Zoho Cliq",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 24,
+   "app": "Lark (Larksuite)",
+   "flags": [
+    "L1:access:homepage-citation",
+    "L1:api:thin(needs browser/human read)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "weak"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "homepage",
+    "api": "thin",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 25,
+   "app": "Pumble",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 26,
+   "app": "Discord",
+   "flags": [
+    "L2:access:free-not-on-page",
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "unsupported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported",
+     "WebSocket": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 27,
+   "app": "Telegram",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 28,
+   "app": "WhatsApp Business",
+   "flags": [
+    "L2:auth:OAuth2-not-on-page"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "unsupported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 29,
+   "app": "Aircall",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Basic": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 30,
+   "app": "Vonage",
+   "flags": [
+    "L1:mcp:thin(needs browser/human read)",
+    "L2b:mcp:registry lists vendor-owned server io.github.Vonage/vonage-documentation-mcp but claim=community"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "Signature": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "thin"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 31,
+   "app": "Google Ads",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "gRPC": "supported",
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 32,
+   "app": "Meta Ads",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 33,
+   "app": "LinkedIn Ads",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 34,
+   "app": "GoHighLevel",
+   "flags": [
+    "L1:api:thin(needs browser/human read)",
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)",
+    "L2:api:REST-not-on-page"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "unsupported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "thin",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 35,
+   "app": "Mailchimp",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 36,
+   "app": "Klaviyo",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 37,
+   "app": "systeme.io",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 38,
+   "app": "Pinterest",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 39,
+   "app": "Threads (Meta)",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "weak",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 40,
+   "app": "SendGrid",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 41,
+   "app": "Shopify",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "GraphQL": "supported",
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 42,
+   "app": "WooCommerce",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "Basic": "supported",
+     "OAuth1": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 43,
+   "app": "BigCommerce",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported",
+     "GraphQL": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 44,
+   "app": "Salesforce Commerce Cloud",
+   "flags": [
+    "L1:api:thin(needs browser/human read)",
+    "L2:access:conflict(claims gated, page shows free/sandbox language)",
+    "L3:absence of MCP asserted at <high confidence (search loop)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "weak",
+     "conflict": "claims gated, page shows free/sandbox language"
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "thin",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 45,
+   "app": "Magento (Adobe Commerce)",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth1": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "weak",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported",
+     "GraphQL": "supported",
+     "SOAP": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 46,
+   "app": "Squarespace",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 47,
+   "app": "Ecwid",
+   "flags": [
+    "L1:auth:redirect-home",
+    "L1:access:redirect-home",
+    "L2:access:paid-not-on-page",
+    "L3:absence of MCP asserted at <high confidence (search loop)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "weak",
+     "Token": "weak"
+    },
+    "access": {
+     "state": "unsupported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "redirect-home",
+    "access": "redirect-home",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 48,
+   "app": "Gumroad",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 49,
+   "app": "Amazon Selling Partner",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 50,
+   "app": "fanbasis",
+   "flags": [
+    "L1:api:homepage-citation",
+    "L1:mcp:homepage-citation",
+    "L2:auth:API key-not-on-page"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "unsupported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {},
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "homepage",
+    "mcp": "homepage"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 51,
+   "app": "DataForSEO",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Basic": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 52,
+   "app": "SE Ranking",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "weak"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 53,
+   "app": "Ahrefs",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 54,
+   "app": "MrScraper",
+   "flags": [
+    "L1:auth:homepage-citation",
+    "L1:api:homepage-citation",
+    "L3:agent self-reported low confidence"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "homepage",
+    "access": "ok",
+    "api": "homepage",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 55,
+   "app": "Apify",
+   "flags": [
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 56,
+   "app": "Firecrawl",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 57,
+   "app": "Bright Data",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 58,
+   "app": "Sherlock",
+   "flags": [
+    "L3:single URL cited for every field"
+   ],
+   "fields": {
+    "auth": {
+     "None": "n/a"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "CLI/library": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 59,
+   "app": "Waterfall.io",
+   "flags": [
+    "L1:auth:homepage-citation",
+    "L1:api:homepage-citation",
+    "L2:access:gated-not-on-page"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "unsupported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "homepage",
+    "access": "ok",
+    "api": "homepage",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 60,
+   "app": "Clay",
+   "flags": [
+    "L2:auth:OAuth2-not-on-page",
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "unsupported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 61,
+   "app": "GitHub",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported",
+     "Signature": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported",
+     "GraphQL": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 62,
+   "app": "Vercel",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "weak"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 63,
+   "app": "Netlify",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 64,
+   "app": "Cloudflare",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported",
+     "GraphQL": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 65,
+   "app": "Supabase",
+   "flags": [
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "supported",
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported",
+     "GraphQL": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 66,
+   "app": "Neo4j",
+   "flags": [
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "Basic": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 67,
+   "app": "Snowflake",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Signature": "supported",
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 68,
+   "app": "MongoDB Atlas",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 69,
+   "app": "Datadog",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 70,
+   "app": "Sentry",
+   "flags": [
+    "L1:mcp:redirect-home"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "redirect-home"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 71,
+   "app": "Notion",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 72,
+   "app": "Airtable",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 73,
+   "app": "Linear",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "API key": "weak"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "GraphQL": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 74,
+   "app": "Jira",
+   "flags": [
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Basic": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 75,
+   "app": "Asana",
+   "flags": [
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 76,
+   "app": "Monday.com",
+   "flags": [
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "GraphQL": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 77,
+   "app": "ClickUp",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 78,
+   "app": "Coda",
+   "flags": [
+    "L2:access:free-not-on-page",
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)",
+    "L2:mcp:official-claim-unsupported",
+    "L2b:mcp:official claim has no grounded citation and no registry entry"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported"
+    },
+    "access": {
+     "state": "unsupported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "unsupported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 79,
+   "app": "Smartsheet",
+   "flags": [
+    "L1:access:thin(needs browser/human read)",
+    "L1:api:thin(needs browser/human read)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "Token": "supported"
+    },
+    "access": {
+     "state": "weak",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "thin",
+    "api": "thin",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 80,
+   "app": "Harvest",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 81,
+   "app": "Stripe",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "weak"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 82,
+   "app": "Plaid",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 83,
+   "app": "Binance",
+   "flags": [
+    "L2:access:free-not-on-page",
+    "L2:access:conflict(claims self-serve, page only shows sales/partner language)",
+    "L2:mcp:official-claim-unsupported",
+    "L2b:mcp:official claim has no grounded citation and no registry entry"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "Signature": "supported"
+    },
+    "access": {
+     "state": "unsupported",
+     "conflict": "claims self-serve, page only shows sales/partner language"
+    },
+    "api": {
+     "REST": "supported",
+     "WebSocket": "supported"
+    },
+    "mcp": "unsupported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 84,
+   "app": "Paygent Connect",
+   "flags": [
+    "L1:auth:homepage-citation",
+    "L1:access:thin(needs browser/human read)",
+    "L1:api:homepage-citation",
+    "L2:auth:API key-not-on-page",
+    "L3:absence of MCP asserted at <high confidence (search loop)",
+    "L3:agent self-reported low confidence"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "unsupported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "absence-claim"
+   },
+   "liveness": {
+    "auth": "homepage",
+    "access": "thin",
+    "api": "homepage",
+    "mcp": "missing"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 85,
+   "app": "iPayX",
+   "flags": [
+    "L2:access:free-not-on-page",
+    "L2:access:conflict(claims self-serve, page only shows sales/partner language)",
+    "L3:single URL cited for every field"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "unsupported",
+     "conflict": "claims self-serve, page only shows sales/partner language"
+    },
+    "api": {
+     "MCP-only": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 86,
+   "app": "QuickBooks",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 87,
+   "app": "Xero",
+   "flags": [
+    "L1:auth:thin(needs browser/human read)",
+    "L1:api:thin(needs browser/human read)",
+    "L2:access:conflict(claims self-serve, page only shows sales/partner language)"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "weak"
+    },
+    "access": {
+     "state": "weak",
+     "conflict": "claims self-serve, page only shows sales/partner language"
+    },
+    "api": {
+     "REST": "weak"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "thin",
+    "access": "ok",
+    "api": "thin",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 88,
+   "app": "Brex",
+   "flags": [
+    "L1:api:homepage-citation"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "weak"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "homepage",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 89,
+   "app": "Ramp",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 90,
+   "app": "PitchBook",
+   "flags": [
+    "L2:auth:API key-not-on-page",
+    "L2:api:REST-not-on-page"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "unsupported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "unsupported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 91,
+   "app": "NotebookLM",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "weak"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 92,
+   "app": "Otter AI",
+   "flags": [
+    "L2:auth:OAuth2-not-on-page",
+    "L2:auth:API key-not-on-page",
+    "L2:api:REST-not-on-page",
+    "L3:agent self-reported low confidence"
+   ],
+   "fields": {
+    "auth": {
+     "OAuth2": "unsupported",
+     "API key": "unsupported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "unsupported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 93,
+   "app": "Fathom",
+   "flags": [
+    "L2:access:conflict(page describes an approval/review gate not reflected in claim)"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported",
+     "OAuth2": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": " | page describes an approval/review gate not reflected in claim"
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 94,
+   "app": "Consensus",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "OAuth2": "supported",
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 95,
+   "app": "Reducto",
+   "flags": [
+    "L1:api:homepage-citation"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "homepage",
+    "mcp": "ok"
+   },
+   "registry": "absent"
+  },
+  {
+   "id": 96,
+   "app": "Devin",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 97,
+   "app": "higgsfield",
+   "flags": [
+    "L1:access:thin(needs browser/human read)"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "weak",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported",
+     "CLI/library": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "thin",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  },
+  {
+   "id": 98,
+   "app": "Mermaid CLI",
+   "flags": [],
+   "fields": {
+    "auth": {
+     "None": "n/a"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "CLI/library": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "ok",
+    "access": "ok",
+    "api": "ok",
+    "mcp": "ok"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 99,
+   "app": "YouTube Transcript",
+   "flags": [
+    "L1:auth:homepage-citation",
+    "L1:access:homepage-citation",
+    "L1:api:homepage-citation",
+    "L1:mcp:homepage-citation",
+    "L3:single URL cited for every field"
+   ],
+   "fields": {
+    "auth": {
+     "API key": "supported"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "homepage",
+    "access": "homepage",
+    "api": "homepage",
+    "mcp": "homepage"
+   },
+   "registry": "official"
+  },
+  {
+   "id": 100,
+   "app": "Grain",
+   "flags": [
+    "L1:auth:homepage-citation",
+    "L1:api:homepage-citation"
+   ],
+   "fields": {
+    "auth": {
+     "Token": "supported",
+     "OAuth2": "weak"
+    },
+    "access": {
+     "state": "supported",
+     "conflict": null
+    },
+    "api": {
+     "REST": "supported"
+    },
+    "mcp": "supported"
+   },
+   "liveness": {
+    "auth": "homepage",
+    "access": "ok",
+    "api": "homepage",
+    "mcp": "ok"
+   },
+   "registry": "community"
+  }
+ ]
+}
